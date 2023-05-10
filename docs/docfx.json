@@ -1,0 +1,66 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "**.csproj"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "_site/**"
+          ],
+          "src" : "../Playnite/source/PlayniteSDK/"
+        }
+      ],
+      "dest": "api",
+      "disableGitFeatures": false,
+      "filter": "SDKfilter.yml"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "api/index.md"
+        ]
+      },
+      {
+        "files": [
+          "tutorials/**.md",
+          "tutorials/**/toc.yml",
+          "manual/**.md",
+          "manual/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [ "**/images/**" ]
+      }
+    ],
+    "overwrite": [
+      {
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadata": {
+      "_enableSearch": true
+    },
+    "template": [
+      "default",
+      "modern",
+      "playnite_template"
+    ],
+    "keepFileLink": false,
+    "disableGitFeatures": false
+  }
+}
