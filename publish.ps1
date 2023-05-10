@@ -22,7 +22,7 @@ if (!(Get-InstalledModule "WinSCP" -EA 0))
 
 $pw = ConvertTo-SecureString $Password -AsPlainText -Force
 $credential = New-Object System.Management.Automation.PSCredential ($UserName, $pw)
-$sessionOption = New-WinSCPSessionOption -HostName $FtpUrl -Protocol Ftp -Credential $credential
+$sessionOption = New-WinSCPSessionOption -HostName $FtpUrl -Protocol Sftp -Credential $credential
 New-WinSCPSession -SessionOption $sessionOption | Out-Null
 
 $branchPath = $DocsRoot + $Branch
