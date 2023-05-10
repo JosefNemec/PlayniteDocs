@@ -11,7 +11,7 @@ param(
 $ErrorActionPreference = "Stop"
 if (!(Get-InstalledModule "WinSCP" -EA 0))
 {
-    Install-Module WinSCP
+    Install-Module WinSCP -Force
 }
 
 # Playnite repo still uses "master"
