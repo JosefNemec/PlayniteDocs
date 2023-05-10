@@ -42,4 +42,4 @@ jobs:
           FTP_DOC_HOST: ${{ secrets.FTP_DOC_HOST }}
           FTP_DOC_PASSWORD: ${{ secrets.FTP_DOC_PASSWORD }}
           FTP_DOC_USERNAME: ${{ secrets.FTP_DOC_USERNAME }}
-        run: .\publish.ps1 "$env:FTP_DOC_HOST" "$env:FTP_DOC_USERNAME" "$env:FTP_DOC_PASSWORD" "$env:GITHUB_REF_NAME" "web/docs/"
+        run: .\publish.ps1 "$env:FTP_DOC_HOST" "$env:FTP_DOC_USERNAME" "$env:FTP_DOC_PASSWORD" "$env:GITHUB_REF_NAME" "Web/docs/"
