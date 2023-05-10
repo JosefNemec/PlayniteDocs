@@ -22,14 +22,14 @@ if ($Branch -eq "main")
 
 $pw = ConvertTo-SecureString $Password -AsPlainText -Force
 $credential = New-Object System.Management.Automation.PSCredential ($UserName, $pw)
-$sessionOption = New-WinSCPSessionOption -HostName $FtpHost -Protocol Ftp -FtpMode Passive -Credential $credential
+$sessionOption = New-WinSCPSessionOption -HostName $FtpHost -Protocol Ftp -Credential $credential
 New-WinSCPSession -SessionOption $sessionOption | Out-Null
 
 $branchPath = $FtpRootDir + $Branch
-if (Test-WinSCPPath -Path $branchPath)
+if (Test-WinSCPPath $branchPath)
 {
-    Remove-WinSCPItem -Path $branchPath -Confirm:$false
+    Remove-WinSCPItem $branchPath -Confirm:$false
 }
 
-Send-WinSCPItem -LocalPath ".\docs\_site" -RemotePath $branchPath
+Send-WinSCPItem ".\docs\_site" $branchPath
 Remove-WinSCPSession
