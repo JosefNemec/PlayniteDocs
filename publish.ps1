@@ -14,12 +14,6 @@ if (!(Get-InstalledModule "WinSCP" -EA 0))
     Install-Module WinSCP -Force
 }
 
-# Playnite repo still uses "master"
-if ($Branch -eq "main")
-{
-   $Branch = "master"
-}
-
 $pw = ConvertTo-SecureString $Password -AsPlainText -Force
 $credential = New-Object System.Management.Automation.PSCredential ($UserName, $pw)
 $sessionOption = New-WinSCPSessionOption -HostName $FtpHost -Protocol Ftp -Credential $credential
