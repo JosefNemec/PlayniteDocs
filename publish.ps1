@@ -19,6 +19,7 @@ $credential = New-Object System.Management.Automation.PSCredential ($UserName, $
 $sessionOption = New-WinSCPSessionOption -HostName $FtpHost -Protocol Ftp -Credential $credential
 New-WinSCPSession -SessionOption $sessionOption | Out-Null
 
+$FtpRootDir = $FtpRootDir.TrimEnd('/') + '/'
 $branchPath = $FtpRootDir + $Branch
 if (Test-WinSCPPath $branchPath)
 {
@@ -33,7 +34,7 @@ if ($Branch -eq "main")
     Start-Process "git" 'branch -r --format "%(refname:lstrip=3)"' -Wait -RedirectStandardOutput ".\gitout.txt"
     $branches = Get-Content ".\gitout.txt"
     Get-WinSCPChildItem $FtpRootDir | Where { $branches -notcontains $_.Name } | ForEach { Remove-WinSCPItem ($FtpRootDir + $_.Name) -Confirm:$false }
-    Send-WinSCPItem ".\docs\_site" $FtpRootDir
+    Send-WinSCPItem ".\docs\_site" $FtpRootDir.TrimEnd('/')
 }
 
 Remove-WinSCPSession
