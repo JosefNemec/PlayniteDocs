@@ -20,13 +20,13 @@ $sessionOption = New-WinSCPSessionOption -HostName $FtpHost -Protocol Ftp -Crede
 New-WinSCPSession -SessionOption $sessionOption | Out-Null
 
 $FtpRootDir = $FtpRootDir.TrimEnd('/') + '/'
-$branchPath = $FtpRootDir + $Branch + '/'
+$branchPath = $FtpRootDir + $Branch
 if (Test-WinSCPPath $branchPath)
 {
     Remove-WinSCPItem $branchPath -Confirm:$false
 }
 
-Send-WinSCPItem ".\docs\_site\*" $branchPath
+Send-WinSCPItem ".\docs\_site\" $branchPath
 
 # main branch should be also in root in case there are still some old links without branch name
 if ($Branch -eq "main")
