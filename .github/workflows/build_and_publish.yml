@@ -21,8 +21,8 @@ jobs:
         run: |
           dotnet tool install docfx --global
           cd docs
-          docfx metadata
-          docfx build
+          docfx metadata --warningsAsErrors
+          docfx build --warningsAsErrors
           
       - name: Publish
         shell: pwsh
