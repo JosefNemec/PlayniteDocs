@@ -1,6 +1,11 @@
 Use VSCode to develop Playnite extensions in Windows
 ====================================================
 
+> [!WARNING]
+> This guide is not up to date with the latest changes made to C# development in VS Code and therefore not all steps might be correct.
+> 
+> Proper VS Code development doc will be made after Playnite transitions to modern .NET runtime with Playnite 11.
+
 This is a step by step tutorial to build the Playnite extensions using VSCode.
 
 Download and setup dependencies
