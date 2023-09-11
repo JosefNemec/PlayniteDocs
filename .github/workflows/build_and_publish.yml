@@ -27,7 +27,8 @@ jobs:
       - name: Publish
         shell: pwsh
         env:
-          FTP_DOC_HOST: ${{ secrets.FTP_DOC_HOST }}
-          FTP_DOC_PASSWORD: ${{ secrets.FTP_DOC_PASSWORD }}
-          FTP_DOC_USERNAME: ${{ secrets.FTP_DOC_USERNAME }}
-        run: .\publish.ps1 "$env:FTP_DOC_HOST" "$env:FTP_DOC_USERNAME" "$env:FTP_DOC_PASSWORD" "$env:GITHUB_REF_NAME" "Web/docs/"
+          SCP_HOST: ${{ secrets.SCP_HOST }}
+          SCP_USERNAME: ${{ secrets.SCP_USERNAME }}
+          SCP_PASSWORD: ${{ secrets.SCP_PASSWORD }}
+          SCP_FINGERPRINT: ${{ secrets.SCP_FINGERPRINT }}
+        run: .\publish.ps1 "$env:SCP_HOST" "$env:SCP_USERNAME" "$env:SCP_PASSWORD" "$env:SCP_FINGERPRINT" "$env:GITHUB_REF_NAME" "/home/playnite/docs/"
