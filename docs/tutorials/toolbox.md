@@ -89,13 +89,13 @@ Verify manifests
 ---------------------
 
 ```cmd
-Toolbox.exe verify <manifest_type> <manifest_past>
+Toolbox.exe verify <manifest_type> <manifest_path>
 ```
 
 `<manifest_type>` - `addon` for addon browser manifest or `installer` for package installer manifest. `addon` verifies linked installer manifest automatically.
 
-`<manifest_past>` - Path to manifest yaml file. Local full path or HTTP URLs are supported.
+`<manifest_path>` - Path to manifest yaml file. Local full path or HTTP URLs are supported.
 
 ```cmd
-Toolbox.exe verify <manifest_type> <manifest_past>
+Toolbox.exe verify <manifest_type> <manifest_path>
 ```
