@@ -4,7 +4,9 @@ Library manager
 Introduction
 ---------------------
 
-Library manager can be accessed from main menu `Library` > `Library manager` sub menu. I can be used to manage various game fields shared between games.
+It can be accessed by navigating to the `Main menu` > `Library` > `Library manager…` sub menu.
+
+The purpose of the Library Manager is to manage metadata and data used in fields shared between games, including actions such as adding, removing or renaming items, among other aspects.
 
 Platforms
 ---------------------

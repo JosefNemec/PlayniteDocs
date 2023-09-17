@@ -2,6 +2,9 @@
 
 ---------------------
 
+> [!NOTE]
+>This feature is only available for Desktop Mode.
+
 Playnite not only helps you manage and play games but also offers support for importing and launching other software applications. Here's how to import and organize your software library.
 
 ### Importing Software

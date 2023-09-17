@@ -65,17 +65,23 @@
           href: features/scriptingSupport/advanced.md
         - name: Help and troubleshooting
           href: features/scriptingSupport/helpAndTroubleshooting.md
+    - name: Other
+      href: features/otherFeatures.md
 - name: Library
   href: library/libraryOverview.md
   items:
+    - name: Adding games
+      href: library/addingGames.md
+    - name: Removing games
+      href: library/removingGames.md
+    - name: Metadata
+      href: library/metadata.md
     - name: Library manager
       href: library/libraryManager.md
     - name: Backup
       href: library/backup.md
     - name: Game actions
       href: library/gameActions.md
-    - name: Metadata
-      href: library/metadata.md
     - name: Playtime Import
       href: library/playtimeImport.md
 - name: Advanced
@@ -85,3 +91,5 @@
       href: advanced/cmdlineArguments.md
     - name: Game variables
       href: advanced/gameVariables.md
+    - name: Other
+      href: advanced/other.md
