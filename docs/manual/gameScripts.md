@@ -1,3 +1,3 @@
 ---
-redirect_url: '02_Features/scriptingSupport/scriptingSupportOverview.html'
+redirect_url: 'features/scriptingSupport/scriptingSupportOverview.html'
 ---

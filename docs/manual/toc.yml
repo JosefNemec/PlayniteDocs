@@ -1,87 +1,87 @@
 - name: Getting started
-  href: 01_GettingStarted/gettingStartedOverview.md
+  href: gettingStarted/gettingStartedOverview.md
   items:
     - name: First start
-      href: 01_GettingStarted/firstStart.md
+      href: gettingStarted/firstStart.md
     - name: Playnite Desktop Mode
-      href: 01_GettingStarted/playniteDesktopMode.md
+      href: gettingStarted/playniteDesktopMode.md
     - name: Playnite Fullscreen Mode
-      href: 01_GettingStarted/playniteFullscreenMode.md
+      href: gettingStarted/playniteFullscreenMode.md
     - name: Configuring Playnite
-      href: 01_GettingStarted/configuringPlaynite.md
+      href: gettingStarted/configuringPlaynite.md
     - name: Help and Troubleshooting
-      href: 01_GettingStarted/helpAndTroubleshooting/helpAndTroubleshootingOverview.md
+      href: gettingStarted/helpAndTroubleshooting/helpAndTroubleshootingOverview.md
       items:
         - name: Frequently Asked Questions (FAQ)
-          href: 01_GettingStarted/helpAndTroubleshooting/faq.md
+          href: gettingStarted/helpAndTroubleshooting/faq.md
         - name: Troubleshooting
-          href: 01_GettingStarted/helpAndTroubleshooting/troubleshooting.md
+          href: gettingStarted/helpAndTroubleshooting/troubleshooting.md
         - name: Known Issues
-          href: 01_GettingStarted/helpAndTroubleshooting/knownIssues.md
+          href: gettingStarted/helpAndTroubleshooting/knownIssues.md
 - name: Features
-  href: 02_Features/featuresOverview.md
+  href: features/featuresOverview.md
   items:
     - name: Filters and Filters presets
-      href: 02_Features/filtersAndFiltersPresets.md
+      href: features/filtersAndFiltersPresets.md
     - name: Game library statistics
-      href: 02_Features/gameLibraryStatistics.md
+      href: features/gameLibraryStatistics.md
     - name: Keyboard launcher
-      href: 02_Features/keyboardLauncher.md
+      href: features/keyboardLauncher.md
     - name: Random Game Picker
-      href: 02_Features/randomGamePicker.md
+      href: features/randomGamePicker.md
     - name: Software launch support
-      href: 02_Features/softwareLaunchSupport.md
+      href: features/softwareLaunchSupport.md
     - name: Emulation support
-      href: 02_Features/emulationSupport/emulationSupportOverview.md
+      href: features/emulationSupport/emulationSupportOverview.md
       items:
         - name: Adding new emulators
-          href: 02_Features/emulationSupport/addingNewEmulators.md
+          href: features/emulationSupport/addingNewEmulators.md
         - name: Adding emulated games
-          href: 02_Features/emulationSupport/addingEmulatedGames.md
+          href: features/emulationSupport/addingEmulatedGames.md
         - name: Advanced
-          href: 02_Features/emulationSupport/advanced.md
+          href: features/emulationSupport/advanced.md
         - name: Frequently Asked Questions (FAQ)
-          href: 02_Features/emulationSupport/faq.md
+          href: features/emulationSupport/faq.md
     - name: Extensions support
-      href: 02_Features/extensionsSupport/extensionsSupportOverview.md
+      href: features/extensionsSupport/extensionsSupportOverview.md
       items:
         - name: Installing extensions
-          href: 02_Features/extensionsSupport/installingExtensions.md
+          href: features/extensionsSupport/installingExtensions.md
         - name: Frequently Asked Questions (FAQ)
-          href: 02_Features/extensionsSupport/faq.md
+          href: features/extensionsSupport/faq.md
     - name: Themes Support
-      href: 02_Features/themesSupport/themesSupportOverview.md
+      href: features/themesSupport/themesSupportOverview.md
       items:
         - name: Installing themes
-          href: 02_Features/themesSupport/installingThemes.md
+          href: features/themesSupport/installingThemes.md
         - name: Frequently Asked Questions (FAQ)
-          href: 02_Features/themesSupport/faq.md
+          href: features/themesSupport/faq.md
     - name: Scripting Support
-      href: 02_Features/scriptingSupport/scriptingSupportOverview.md
+      href: features/scriptingSupport/scriptingSupportOverview.md
       items:
         - name: Example scripts
-          href: 02_Features/scriptingSupport/exampleScripts.md
+          href: features/scriptingSupport/exampleScripts.md
         - name: Advanced
-          href: 02_Features/scriptingSupport/advanced.md
+          href: features/scriptingSupport/advanced.md
         - name: Help and troubleshooting
-          href: 02_Features/scriptingSupport/helpAndTroubleshooting.md
+          href: features/scriptingSupport/helpAndTroubleshooting.md
 - name: Library
-  href: 03_Library/libraryOverview.md
+  href: library/libraryOverview.md
   items:
     - name: Library manager
-      href: 03_Library/libraryManager.md
+      href: library/libraryManager.md
     - name: Backup
-      href: 03_Library/backup.md
+      href: library/backup.md
     - name: Game actions
-      href: 03_Library/gameActions.md
+      href: library/gameActions.md
     - name: Metadata
-      href: 03_Library/metadata.md
+      href: library/metadata.md
     - name: Playtime Import
-      href: 03_Library/playtimeImport.md
+      href: library/playtimeImport.md
 - name: Advanced
-  href: 04_Advanced/advancedOverview.md
+  href: advanced/advancedOverview.md
   items:
     - name: Command-line arguments
-      href: 04_Advanced/cmdlineArguments.md
+      href: advanced/cmdlineArguments.md
     - name: Game variables
-      href: 04_Advanced/gameVariables.md
+      href: advanced/gameVariables.md

@@ -1,3 +1,3 @@
 ---
-redirect_url: '03_Library/metadata.html'
+redirect_url: 'library/metadata.html'
 ---

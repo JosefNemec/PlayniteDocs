@@ -95,7 +95,7 @@ You can start safe by opening going to the `Main menu` -> `Help` -> *Restart in 
 
 ### How do I start additional application(s) before game starts and kill it after game exits?
 
-See [this page](../../02_Features/scriptingSupport/exampleScripts.md#starting-additional-applications-before-game-starts-and-killing-it-after-game-exits).
+See [this page](../../features/scriptingSupport/exampleScripts.md#starting-additional-applications-before-game-starts-and-killing-it-after-game-exits).
 
 ### How do I unhide game?
 

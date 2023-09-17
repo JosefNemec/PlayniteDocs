@@ -1,3 +1,3 @@
 ---
-redirect_url: '02_Features/emulationSupport/emulationSupportOverview.html'
+redirect_url: 'features/emulationSupport/emulationSupportOverview.html'
 ---

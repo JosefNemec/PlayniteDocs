@@ -56,7 +56,7 @@ After creating a manual **Custom profile** in the previous step, you'll need to 
 The full `Arguments` line we'll end with is `-f "{ImagePath}"`.
 
 > [!NOTE]
-> The `{ImagePath}` part is a game variable that points to the game image/rom path. Generally most emulators accept this argument but it will depend in the specific emulator. For a detailed explanation of game variables during game start refer to [Game Variables](../../04_Advanced/gameVariables.md)
+> The `{ImagePath}` part is a game variable that points to the game image/rom path. Generally most emulators accept this argument but it will depend in the specific emulator. For a detailed explanation of game variables during game start refer to [Game Variables](../../advanced/gameVariables.md)
 
 4. Configure the `Supported File Types` available in the documentation. Alternatively if you didn't find any, it is suggested to see what file types are available in the file selection dialog in the emulator itself.
 
@@ -72,4 +72,4 @@ In this example, we end with `gba,zip,7z,elf,agb,mb,rom,bin`
 ![Emulation_CustomProfileConfig](images/Emulation_CustomProfileConfig.jpg)
 
 > [!NOTE]
-> A lot of arcade emulators require ROM file to be passed via command line argument as a file name without complete path or file name without an extension. In that case you can use `{ImageName}` or `{ImageNameNoExt}` (See [game variables](../../04_Advanced/gameVariables.md)), instead of {ImagePath} which contains full path to a ROM file.
+> A lot of arcade emulators require ROM file to be passed via command line argument as a file name without complete path or file name without an extension. In that case you can use `{ImageName}` or `{ImageNameNoExt}` (See [game variables](../../advanced/gameVariables.md)), instead of {ImagePath} which contains full path to a ROM file.

@@ -1,3 +1,3 @@
 ---
-redirect_url: '03_Library/libraryManager.html'
+redirect_url: 'library/libraryManager.html'
 ---

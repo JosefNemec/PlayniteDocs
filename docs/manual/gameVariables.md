@@ -1,3 +1,3 @@
 ---
-redirect_url: '04_Advanced/gameVariables.html'
+redirect_url: 'advanced/gameVariables.html'
 ---

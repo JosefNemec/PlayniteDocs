@@ -63,4 +63,4 @@ Explore these options in the `Appearance` section to make Playnite your own.
 
 ## Installing library integrations and extensions
 
-See [here](../02_Features/extensionsSupport/extensionsSupportOverview.md).
+See [here](../features/extensionsSupport/extensionsSupportOverview.md).

@@ -1,3 +1,3 @@
 ---
-redirect_url: '04_Advanced/cmdlineArguments.html'
+redirect_url: 'advanced/cmdlineArguments.html'
 ---

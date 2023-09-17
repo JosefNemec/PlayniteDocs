@@ -1,3 +1,3 @@
 ---
-redirect_url: '03_Library/backup.html'
+redirect_url: 'library/backup.html'
 ---
