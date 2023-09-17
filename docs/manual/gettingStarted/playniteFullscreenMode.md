@@ -10,11 +10,12 @@
 
 The UI consists of the following panels:
 
-| Id  | Name          | Description                                                                                                            |
-| --- | ------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| 1   | Top panel     | Quickly switch configured **Filter Presets** and open Playnite settings. Use Left and Right bumpers to switch presets. |
-| 2   | Filters Panel | Configure filters to select what should be displayed in the library panel.                                             |
-| 3   | Library panel | Displays your library.                                                                                                 |
+| Id | Name           | Description                                               |
+|--- |--------------- |---------------------------------------------------------- |
+| 1  | Top panel      | Quickly switch configured Filter Presets and open Playnite settings. Use Left and Right bumpers to switch presets. |
+| 2  | Filters Panel  | Configure filters to select what should be displayed in the library panel. |
+| 3  | Library panel  | Displays your library.                                    |
+
 ![Playnite Fullscreen Mode](images/playniteFullscreenMode_UI.jpg)
 
 To open the game view, select a game and press the **Details button**, which is the **A button** by default.
