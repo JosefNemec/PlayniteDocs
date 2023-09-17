@@ -17,6 +17,14 @@ In the **General** section of the settings, you'll find options to configure Pla
 
 ![General Configuration](images/gettingStarted_GeneralConfig.png)
 
+### User Interface and Appearance Configuration
+
+Playnite provides numerous customization options to tailor the user interface and appearance to your preferences. Customize the visibility of elements, change the application font, adjust the placement of panels, modify the height of covers, adjust spacing, and more.
+
+Explore these options in the `Appearance` section to make Playnite your own.
+
+![User Interface and Appearance Configuration](images/gettingStarted_SettingsAppearance.png)
+
 ### Importing Playtime from Third-party Libraries and Services
 
 In this settings section, you'll find the "Import playtime of games in library" setting. This setting configures whether playtime provided by third-party services should be imported into Playnite during library updates.
@@ -52,14 +60,6 @@ Configure this in the **Backup** settings section.
 Backups can be manually created or restored under `Main menu` -> `Library`.
 
 ![Creating and Restoring Backups](images/gettingStarted_CreateRestoreBackups.jpg)
-
-### User Interface and Appearance Configuration
-
-Playnite provides numerous customization options to tailor the user interface and appearance to your preferences. Customize the visibility of elements, change the application font, adjust the placement of panels, modify the height of covers, adjust spacing, and more.
-
-Explore these options in the `Appearance` section to make Playnite your own.
-
-![User Interface and Appearance Configuration](images/gettingStarted_SettingsAppearance.png)
 
 ## Installing library integrations and extensions
 
