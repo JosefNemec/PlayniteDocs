@@ -11,11 +11,19 @@ To access Playnite's settings:
 
 ![Accessing Playnite Settings](images/gettingStarted_acessSettings.png)
 
-### General Configuration
+### General configuration
 
 In the **General** section of the settings, you'll find options to configure Playnite's behavior when starting, minimizing, and whether Playnite should start in Fullscreen Mode, among other settings.
 
 ![General Configuration](images/gettingStarted_GeneralConfig.png)
+
+### User Interface and appearance configuration
+
+Playnite provides numerous customization options to tailor the user interface and appearance to your preferences. Customize the visibility of elements, change the application font, adjust the placement of panels, modify the height of covers, adjust spacing, and more.
+
+Explore these options in the `Appearance` section to make Playnite your own.
+
+![User Interface and Appearance Configuration](images/gettingStarted_SettingsAppearance.png)
 
 ### Importing Playtime from Third-party Libraries and Services
 
@@ -41,7 +49,7 @@ You can configure Playnite to automatically close game clients after you close a
 
 ![Auto Close Clients](images/gettingStarted_AutoCloseClients.png)
 
-### Backups Support
+### Backups support
 
 Playnite allows you to configure automatic backups for safety. These backups can be used to restore Playnite to a previous state in case of installation issues, library corruption, or when moving a library to another PC.
 
@@ -52,14 +60,6 @@ Configure this in the **Backup** settings section.
 Backups can be manually created or restored under `Main menu` -> `Library`.
 
 ![Creating and Restoring Backups](images/gettingStarted_CreateRestoreBackups.jpg)
-
-### User Interface and Appearance Configuration
-
-Playnite provides numerous customization options to tailor the user interface and appearance to your preferences. Customize the visibility of elements, change the application font, adjust the placement of panels, modify the height of covers, adjust spacing, and more.
-
-Explore these options in the `Appearance` section to make Playnite your own.
-
-![User Interface and Appearance Configuration](images/gettingStarted_SettingsAppearance.png)
 
 ## Installing library integrations and extensions
 
