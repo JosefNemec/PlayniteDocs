@@ -1,26 +1,87 @@
-- name: Application arguments
-  href: cmdlineArguments.md
-
-- name: Game variables
-  href: gameVariables.md
-
-- name: Game scripts
-  href: gameScripts.md
-
-- name: Emulator support
-  href: emulators.md
-
-- name: Game actions
-  href: gameActions.md
-
-- name: Library manager
-  href: libraryManager.md
-
-- name: Playtime Import
-  href: playtimeImport.md
-
-- name: Backups
-  href: backup.md
-
-- name: Metadata
-  href: metadata.md
+- name: Getting started
+  href: 01_GettingStarted/gettingStartedOverview.md
+  items:
+    - name: First start
+      href: 01_GettingStarted/firstStart.md
+    - name: Playnite Desktop Mode
+      href: 01_GettingStarted/playniteDesktopMode.md
+    - name: Playnite Fullscreen Mode
+      href: 01_GettingStarted/playniteFullscreenMode.md
+    - name: Configuring Playnite
+      href: 01_GettingStarted/configuringPlaynite.md
+    - name: Help and Troubleshooting
+      href: 01_GettingStarted/helpAndTroubleshooting/helpAndTroubleshootingOverview.md
+      items:
+        - name: Frequently Asked Questions (FAQ)
+          href: 01_GettingStarted/helpAndTroubleshooting/faq.md
+        - name: Troubleshooting
+          href: 01_GettingStarted/helpAndTroubleshooting/troubleshooting.md
+        - name: Known Issues
+          href: 01_GettingStarted/helpAndTroubleshooting/knownIssues.md
+- name: Features
+  href: 02_Features/featuresOverview.md
+  items:
+    - name: Filters and Filters presets
+      href: 02_Features/filtersAndFiltersPresets.md
+    - name: Game library statistics
+      href: 02_Features/gameLibraryStatistics.md
+    - name: Keyboard launcher
+      href: 02_Features/keyboardLauncher.md
+    - name: Random Game Picker
+      href: 02_Features/randomGamePicker.md
+    - name: Software launch support
+      href: 02_Features/softwareLaunchSupport.md
+    - name: Emulation support
+      href: 02_Features/emulationSupport/emulationSupportOverview.md
+      items:
+        - name: Adding new emulators
+          href: 02_Features/emulationSupport/addingNewEmulators.md
+        - name: Adding emulated games
+          href: 02_Features/emulationSupport/addingEmulatedGames.md
+        - name: Advanced
+          href: 02_Features/emulationSupport/advanced.md
+        - name: Frequently Asked Questions (FAQ)
+          href: 02_Features/emulationSupport/faq.md
+    - name: Extensions support
+      href: 02_Features/extensionsSupport/extensionsSupportOverview.md
+      items:
+        - name: Installing extensions
+          href: 02_Features/extensionsSupport/installingExtensions.md
+        - name: Frequently Asked Questions (FAQ)
+          href: 02_Features/extensionsSupport/faq.md
+    - name: Themes Support
+      href: 02_Features/themesSupport/themesSupportOverview.md
+      items:
+        - name: Installing themes
+          href: 02_Features/themesSupport/installingThemes.md
+        - name: Frequently Asked Questions (FAQ)
+          href: 02_Features/themesSupport/faq.md
+    - name: Scripting Support
+      href: 02_Features/scriptingSupport/scriptingSupportOverview.md
+      items:
+        - name: Example scripts
+          href: 02_Features/scriptingSupport/exampleScripts.md
+        - name: Advanced
+          href: 02_Features/scriptingSupport/advanced.md
+        - name: Help and troubleshooting
+          href: 02_Features/scriptingSupport/helpAndTroubleshooting.md
+- name: Library
+  href: 03_Library/libraryOverview.md
+  items:
+    - name: Library manager
+      href: 03_Library/libraryManager.md
+    - name: Backup
+      href: 03_Library/backup.md
+    - name: Game actions
+      href: 03_Library/gameActions.md
+    - name: Metadata
+      href: 03_Library/metadata.md
+    - name: Playtime Import
+      href: 03_Library/playtimeImport.md
+- name: Advanced
+  href: 04_Advanced/advancedOverview.md
+  items:
+    - name: Command-line arguments
+      href: 04_Advanced/cmdlineArguments.md
+    - name: Game variables
+      href: 04_Advanced/gameVariables.md
