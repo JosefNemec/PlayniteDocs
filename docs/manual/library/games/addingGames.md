@@ -2,10 +2,10 @@
 ---------------------
 
 ### Adding games from library plugins/3rd party services
-See [Installing and configuring additional Library integrations](../features/extensionsSupport/installingExtensions.md#installing-and-configuring-additional-library-integrations)
+See [Installing and configuring additional Library integrations](../../features/extensionsSupport/installingExtensions.md#installing-and-configuring-additional-library-integrations)
 
 ### Adding emulated games
-See [Adding Emulated Games](../features/emulationSupport/addingEmulatedGames.md)
+See [Adding Emulated Games](../../features/emulationSupport/addingEmulatedGames.md)
 
 ### Manually
 

@@ -1,3 +1,3 @@
 ---
-redirect_url: 'library/playtimeImport.html'
+redirect_url: 'library/games/playtimeImport.html'
 ---

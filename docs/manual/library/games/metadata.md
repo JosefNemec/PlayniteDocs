@@ -28,7 +28,7 @@ These metadata fields help you keep your game library well-organized and provide
 For a full list of available metadata, you can right click a game and select `Edit…`.
 
 ### How is metadata obtained?
-Metadata is generally obtained with metadata providers as the form of Metadata extensions, which obtain this data from third party services to Playnite to add to imported games. To learn how to install metadata extensions to your Playnite installation see [here](../features/extensionsSupport/installingExtensions.md#installing-additional-metadata-providers).
+Metadata is generally obtained with metadata providers as the form of Metadata extensions, which obtain this data from third party services to Playnite to add to imported games. To learn how to install metadata extensions to your Playnite installation see [here](../../features/extensionsSupport/installingExtensions.md#installing-additional-metadata-providers).
 
 ### Updating game metadata
 By default Playnite will automatically obtain and apply to your games when you import them. If you wish to obtain metadata after first importing the games, it can be done in different ways on Desktop Mode:
@@ -38,7 +38,7 @@ By default Playnite will automatically obtain and apply to your games when you i
 ![metadata_downloadBulk](images/metadata_downloadBulk.jpg)
 
 > [!NOTE]
->For this option, it's possible to select multiple games. For more information, refer to [here](../gettingStarted/playniteDesktopMode.md#tips).
+>For this option, it's possible to select multiple games. For more information, refer to [here](../../gettingStarted/playniteDesktopMode.md#tips).
 
 2. **Single game metadata download:** Use `Right-Click` on a game and select `Edit…` in the context menu to open the Game Edit Window. Afterwards, click the `Download Metadata…` button on the bottom left of the window, select a Metadata extension you have installed and follow the instructions.
 
@@ -52,7 +52,7 @@ It's possible to edit the metadata of multiple games at the same time with this 
 ### Editing Metadata available in Library
 Metadata that has been obtained for your games can be edited, modified or removed using the **Lbrary Manager**.
 
-For more information, refer to [here](libraryManager.md).
+For more information, refer to [here](../libraryManager.md).
 
 ### Media web image search
 ---------------------

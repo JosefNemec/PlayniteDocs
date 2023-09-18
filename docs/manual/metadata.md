@@ -1,3 +1,3 @@
 ---
-redirect_url: 'library/metadata.html'
+redirect_url: 'library/games/metadata.html'
 ---

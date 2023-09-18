@@ -1,3 +1,3 @@
 ---
-redirect_url: 'library/gameActions.html'
+redirect_url: 'library/games/gameActions.html'
 ---

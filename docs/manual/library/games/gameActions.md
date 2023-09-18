@@ -1,14 +1,13 @@
 Game actions
 =====================
 
-Introduction
----------------------
+Game actions can be used either to start a game or to launch additional executables not related to game startup, for example configuration/mod utilities.
 
-Game actions can be use either to start a game or to launch additional executables not related to game startup, for example configuration/mod utilities. Only actions marked as "Play" action are used to start a game, others are available to launch via game menu. If more then one Play action is available, Playnite will show selection dialog on game's startup to specify which action to use to start a game.
+Only actions marked as "Play" action are used to start a game, others are available to launch via game menu. If more then one Play action is available, Playnite will show selection dialog on game's startup to specify which action to use to start a game.
 
 `Include library integration play actions` specifies whether integration plugin that imported a specific game, will be asked to handle game startup when the game is being launched.
 
-Play actions can be also provided by plugins, see [game actions](../../tutorials/extensions/gameActions.md) plugin page for more details.
+Play actions can be also provided by plugins, see [game actions](../../../tutorials/extensions/gameActions.md) plugin page for more details.
 
 Bulk editing
 ---------------------
@@ -34,7 +33,7 @@ Action properties
 | File     | Path is executed as a standard executable file.                                                               |
 | URL      | Path is executed as an URL address.                                                                           |
 | Emulator | Action is started using emulator configuration.                                                               |
-| Script   | Script used to start an application. See [game scripts](../features/scriptingSupport/advanced.md#startup-script) page for more details. |
+| Script   | Script used to start an application. See [game scripts](../../features/scriptingSupport/advanced.md#startup-script) page for more details. |
 
 > [!WARNING]
 > Non-play actions that use `Script` startup method will run synchronously on main thead. This means that they will block Playnite's UI until the script is finished running. Therefore make sure you don't use any long running operations in your startup script.
