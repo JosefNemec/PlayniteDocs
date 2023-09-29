@@ -8,12 +8,12 @@ Below are some examples of useful scripts you can use:
 - Set first script to start your application using [Start-Process](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-5.1) cmdlet to the
 
 ```powershell
-Start-Process "c:\somepath\someapp.exe" "-some arguments"
+Start-Process -FilePath "c:\somepath\someapp.exe" -ArgumentList "-some arguments"
 ```
 
 If you want to start application minimized and application doesn't have native support for it then add `-WindowStyle` argument to the end of the line.
 
-> [!NOTE]
+> [!WARNING]
 > Some applications won't work properly (or even start) when started using working directory outside of their application directory. In that case you need to use `-WorkingDirectory` parameter and specify working directory manually.
 
 - Set second script to kill the application using [Stop-Process](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/stop-process?view=powershell-5.1) cmdlet
@@ -75,7 +75,7 @@ if ($game.Features.Name -contains "Some feature name")
     # Game has the feature!
 }
 
-if ($game.Source -eq "Steam")
+if ($game.Source.Name -eq "Steam")
 {
     # Game is a Steam game!
 }
