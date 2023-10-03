@@ -110,12 +110,12 @@ Profiles handle how game is started and imported.
 
 ### Startup script
 
-If your profile contains `Startup script` code, Playnite will use that instead of general profile settings to launch an emulator. Emulator startup script works in the same way as [game startup scripts](../scriptingSupport/advanced.md#startup-script). The only difference is that emulator script has some additional variables available:
+If your profile contains `Startup script` code, Playnite will use that instead of general profile settings to launch an emulator. Emulator startup script works in the same way as [game startup scripts](../scriptingSupport/startupScript.mdt). The only difference is that emulator script has some additional variables available:
 
 | Variable         | Description                                                                             |
 |:---------------- |:--------------------------------------------------------------------------------------- |
-| $Emulator        | [Emulator](xref:Playnite.SDK.Models.Emulator) selected to launch a game.                |
-| $EmulatorProfile | [Emulator profile](xref:Playnite.SDK.Models.EmulatorProfile) selected to launch a game. |
-| $RomPath         | ROM path selected to launch.                                                            |
-| $PlayniteApi     | Instance of [Playnite API](xref:Playnite.SDK.IPlayniteAPI).                             |
-| $Game            | [Game](xref:Playnite.SDK.Models.Game) library object for current game session.          |
+| `$Emulator`        | [Emulator](xref:Playnite.SDK.Models.Emulator) selected to launch a game.                |
+| `$EmulatorProfile` | [Emulator profile](xref:Playnite.SDK.Models.EmulatorProfile) selected to launch a game. |
+| `$RomPath`         | ROM path selected to launch.                                                            |
+| `$PlayniteApi`     | Instance of [Playnite API](xref:Playnite.SDK.IPlayniteAPI).                             |
+| `$Game`            | [Game](xref:Playnite.SDK.Models.Game) library object for current game session.          |

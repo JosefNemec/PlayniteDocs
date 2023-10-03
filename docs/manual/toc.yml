@@ -59,8 +59,8 @@
       items:
         - name: Example scripts
           href: features/scriptingSupport/exampleScripts.md
-        - name: Advanced
-          href: features/scriptingSupport/advanced.md
+        - name: Startup Script
+          href: features/scriptingSupport/startupScript.md
         - name: Help and troubleshooting
           href: features/scriptingSupport/helpAndTroubleshooting.md
     - name: Other

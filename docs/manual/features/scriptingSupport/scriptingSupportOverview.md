@@ -27,8 +27,20 @@ Configured Scripts are executed in the following order:
 > [!NOTE]
 > Game scripts are not the same as [script extensions](../../../tutorials/extensions/intro.md), which provide extended functionality for more complex scenarios.
 
-### Configuring scripts
+### Script variables
+---------------------
 
+Playnite provides some built-in global variables that scripts can use to get more information about current game session.
+
+| Variable          | Description                                                                                         |
+|:----------------- |:--------------------------------------------------------------------------------------------------- |
+| `$PlayniteApi`      | Instance of [Playnite API](xref:Playnite.SDK.IPlayniteAPI).                                         |
+| `$Game`             | [Game](xref:Playnite.SDK.Models.Game) library object for current game session.                      |
+| `$SourceAction`     | Custom [game action](xref:Playnite.SDK.Models.GameAction) used to start a game.                     |
+| `$SelectedRomFile`  | ROM file selected when running a game with multiple ROMs assigned.                                  |
+| `$StartedProcessId` | Process ID of original started process. Might not be available depending on how a game was started. |
+
+### Configuring scripts
 ---------------------
 
 **Game level:**
@@ -65,3 +77,8 @@ Testing can be done by pressing the `Test Script` button if it's available next 
 - If a game has an installation directory set and that directory exists, Playnite will set the current working directory of a script runtime to that installation directory.
 
 - All scripts share the same runtime environment for a single game session, allowing you to share data between them by declaring variables on the global scope (e.g., `$global:testVar = "This is a global string"`).
+
+Cancelling game startup
+---------------------
+
+Game startup is automatically cancelled if starting script fails with an exception. If you want to manually cancel game startup, set `$StartingArgs.CancelStartup` to `$true`.
