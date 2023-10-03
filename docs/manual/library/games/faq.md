@@ -1,9 +1,21 @@
 ## Frequently Asked Questions (FAQ)
 ---------------------
 
-### I can't find a game in my library, why?
+### My games are gone or missing
 
-See [here](../../gettingStarted/helpAndTroubleshooting/troubleshooting.md#my-games-are-gone-or-missing).
+If your games are missing, consider the following:
+
+1. **Filtered**: Does it say "**Filter enabled**" in the top bar? If so, open the Filter Panel by clicking that button and click the `Clear filters` text at the top of the panel to remove any filters that may be hiding your games.
+2. **Hidden**: If you still can't see your games, check if the game is hidden by enabling the `Hidden` checkbox in the same panel.
+
+Another easy way to find if a game is in your library is by searching for your game using **Playnite's keyboard launcher**. For more information, refer to [here](../../features/keyboardLauncher.md).
+
+### My games are not importing
+
+1. Check that your library plugin is configured and authenticated correctly via `Main menu` > `Add-ons…` > `Extension settings` > `Libraries`. Make sure especially that uninstalled games are set to import if that setting is available
+2. Make sure that you're logged into the right account with the library plugin
+3. Check if the game is present in `Main menu` > `Settings` > `Import exclusion list`
+4. Check that you don't have a filter enabled (via the filter panel) as explained in the previous section which would prevent games from being shown.
 
 ### I uninstalled a library plugin but its games are still there, why?
 

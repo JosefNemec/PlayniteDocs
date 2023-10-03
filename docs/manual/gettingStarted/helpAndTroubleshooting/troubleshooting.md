@@ -1,6 +1,10 @@
 ## Troubleshooting
 ---------------------
 
+### I'm having an issue with my games
+
+Refer to the games FAQ page [here](../../library/games/faq.md).
+
 ### General network issues
 
 Usually caused by firewall blocking Playnite installer (check firewall settings) or by DNS functionality being broken on ISP's side. For the latter, switch to using CloudFlare's or Google's DNS:
@@ -37,22 +41,6 @@ You may get this dialog in several cases, some examples include:
 - Application that's starting Playnite is already running with elevated privileges.
 - You have UAC completely disabled in User Account Control Windows settings.
 - You installed Playnite using unsupported method that forces it to  run elevated. For example people installing using Chocolatey reported this issue.
-
-### My games are gone or missing
-
-If your games are missing, consider the following:
-
-1. **Filtered**: Does it say "**Filter enabled**" in the top bar? If so, open the Filter Panel by clicking that button and click the `Clear filters` text at the top of the panel to remove any filters that may be hiding your games.
-2. **Hidden**: If you still can't see your games, check if the game is hidden by enabling the `Hidden` checkbox in the same panel.
-
-Another easy way to find if a game is in your library is by searching for your game using **Playnite's keyboard launcher**. For more information, refer to [here](../../features/keyboardLauncher.md).
-
-### My games are not importing
-
-1. Check that your library plugin is configured and authenticated correctly via `Main menu` > `Add-ons…` > `Extension settings` > `Libraries`. Make sure especially that uninstalled games are set to import if that setting is available
-2. Make sure that you're logged into the right account with the library plugin
-3. Check if the game is present in `Main menu` > `Settings` > `Import exclusion list`
-4. Check that you don't have a filter enabled (via the filter panel) as explained in the previous section which would prevent games from being shown.
 
 ### My controller is not working
 
