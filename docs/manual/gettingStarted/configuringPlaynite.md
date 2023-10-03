@@ -6,10 +6,20 @@
 
 To access Playnite's settings:
 
+### Desktop Mode
 1. Click the `Playnite` icon to open the main menu.
 2. Click `Settings…`
 
 ![Accessing Playnite Settings](images/gettingStarted_acessSettings.png)
+
+### Fullscreen Mode
+1. Press the `Start` button in your controller
+2. Navigate to `Settings`
+
+> [!NOTE]
+> Each Playnite mode has its own unique configuration settings that apply exclusively to that mode, including appearance aspects like the active theme and more. These mode-specific settings can only be modified within their respective mode settings.
+> 
+> Additionally, Desktop mode contains certain settings and configuration that impact Playnite's behavior and functionality across both modes.
 
 ### General configuration
 
