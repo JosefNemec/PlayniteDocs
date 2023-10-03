@@ -4,7 +4,7 @@
 The first time you open Playnite, you will encounter the First Time Configuration wizard, designed to help you set up your gaming library efficiently.
 
 > [!NOTE]
-> It's important to mention that any configuration or action performed during the wizard can be adjusted later, even after it completes.
+> It's important to mention that any configuration or action performed during the wizard can be adjusted later in the add-ons configuration window, even after it completes. For more information refer to [here](../features/extensionsSupport/installingExtensions.md).
 
 ![First Time Configuration Wizard](images/firstStart_Wizard1.png)
 
@@ -27,4 +27,4 @@ Follow these steps to get started:
 
 4. **Importing Games:** With the setup complete, Playnite will launch in Desktop Mode and start importing games from the libraries you configured.
 
-This wizard ensures that Playnite is tailored to your gaming library, making it a seamless and personalized experience from the very start. You can always revisit and adjust these settings later to suit your changing preferences.
+This wizard ensures that Playnite is tailored to your gaming library, making it a seamless and personalized experience from the very start. You can always revisit and adjust these settings later to suit your changing preferences in the add-ons configuration window. For more information refer to [here](../features/extensionsSupport/installingExtensions.md).
