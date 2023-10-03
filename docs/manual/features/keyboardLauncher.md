@@ -27,3 +27,13 @@ Extensions can enhance the functionality of the Keyboard Launcher by providing a
 ![keyboardLauncherExtensions](images/keyboardLauncher_KeyboardLauncherExtensions.jpg)
 
 Extensions have a default `keyword` that can be entered at the start of the search box in the launcher to activate them but it can be changed in the keyboard launcher settings indicated in the previous section.
+
+### Keyword Activators
+
+Entering a prefix activator at the start of the search box activates certain functionality in the launcher:
+
+| Keyword Prefix | Action | 
+| -------------- | ------ |
+| `#` | Shows commands and actions available in the main menu |
+| `/` | Shows available extensions searches |
+| `<Extension keyword>` | Using a specific [extension keyword](#extensions-support) will activate its search functionality |
