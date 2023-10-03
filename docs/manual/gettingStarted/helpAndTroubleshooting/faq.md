@@ -104,3 +104,21 @@ Use the "funnel" filter button next to the search field to open filter panel, se
 ### How do I close (emulated) game with a controller?
 
 Playnite has no built-in functionality for it right now. If a game (or an emulator) doesn't have a way to ecoverxit via some menu, you will need to use a 3rd party app that can simulate `ALT+F4` with a controller button.  Some example of apps you can use include [JoyXoff]([JoyXoff](https://joyxoff.com/en/)), [AntiMicroX](https://antimicrox.github.io/), [Controller Companion](http://controllercompanion.com/) and [reWASD](https://www.rewasd.com/).
+
+### How do I backup Playnite library and move it to another PC?
+
+Playnite 10 introduced built-in options to backup and restore Playnite data accessible from the Library menu.
+
+To manually backup data:
+
+- If using portable version, just move the whole installation folder.
+- If using installed version, then you need to move `%appdata%\Playnite` folder, which contains all user information.
+
+Make sure to completely replace the folder on new drive/PC if it  already exists from other installation. Just copying over existing user  data will cause issues!
+
+### How do I convert installed version to portable?
+
+1. Shutdown Playnite
+2. Copy content of `%appdata%\Playnite` into Playnite's application folder
+3. Delete `unins000.exe` and `unins000.dat` files in this directory.
+4. Edit `config.json` with a text editor and change `DatabasePath` property value to `"library"`
