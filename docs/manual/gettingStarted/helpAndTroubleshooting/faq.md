@@ -13,7 +13,9 @@ Playnite is a combination of `Play` and `Unite`.
 
 ### Is Playnite safe to use?
 
-Its safety largely depends on how the installed library and other types of plugins work and what they do, as they handle various aspects of game integration and other functionality. When connecting accounts, it primarily relies on the practices implemented by these plugins, such as using official login web forms and storing web session cookies or tokens, similar to how your web browser does when you log in to these services but the specifics will vary from plugin to plugin. For more information about safety when installing and using plugins, refer to [here](../../features/extensionsSupport/faq.md#are-extensions-safe-to-use).
+Its safety largely depends on how the installed library and other types of plugins work and what they do, as they handle various aspects of game integration and other functionality.
+
+When connecting accounts, it primarily relies on the practices implemented by these plugins, such as using official login web forms and storing web session cookies or tokens, similar to how your web browser does when you log in to these services but the specifics will vary from plugin to plugin. For more information about safety when installing and using plugins, refer to [here](../../features/extensionsSupport/faq.md#are-extensions-safe-to-use).
 
 When it comes to your user data, you can rest assured as all information about your gaming library is stored exclusively on your PC. This guarantees that your data remains securely within your control at all times.
 
@@ -21,21 +23,37 @@ When it comes to your user data, you can rest assured as all information about y
 
 To support the Playnite project and contribute to its continued development, you can consider the following options:
 
-- **Donations and financial support:** The Playnite project may accept donations to help cover the costs of development, server hosting, and other expenses. Consider becoming a [Patreon](https://www.patreon.com/playnite) if this is an option for you.
+**Donations and financial support:**
 
-- **Spread the Word:** Share your positive experiences with Playnite on social media, gaming forums, and among your friends. Increasing the user base and community engagement can benefit the project.
+The Playnite project may accept donations to help cover the costs of development, server hosting, and other expenses. Consider becoming a [Patreon](https://www.patreon.com/playnite) if this is an option for you.
 
-- **Contribute Code:** If you have programming skills, you can contribute to the project by submitting code improvements, bug fixes, or new features. Playnite is an open-source project hosted on GitHub, so you can fork the repository, make changes, and submit pull requests.
+**Spread the Word:**
 
-- **Bug Reporting:** Help improve Playnite by reporting any bugs, issues, or glitches you encounter while using the software. Detailed bug reports with steps to reproduce the problem can be invaluable to the developers.
+Share your positive experiences with Playnite on social media, gaming forums, and among your friends. Increasing the user base and community engagement can benefit the project.
 
-- **Translate:** Playnite is available in multiple languages, and you can contribute by translating the software into your native language or improving existing translations on [Crowdin](https://crowdin.com/project/playnite).
+**Contribute Code:**
 
-- **Support Extensions:** If you're a developer, consider creating or maintaining extensions for Playnite. Extensions can enhance Playnite's functionality and provide more options to users.
+If you have programming skills, you can contribute to the project by submitting code improvements, bug fixes, or new features. Playnite is an open-source project hosted on GitHub, so you can fork the repository, make changes, and submit pull requests.
 
-- **Participate in Discussions:** Engage in discussions related to Playnite. Provide help and support to other users, answer questions, and share your knowledge.
+**Bug Reporting:**
 
-- **Documentation:** Contribute to improving the Playnite documentation, including user guides, FAQs, and tutorials. Clear and helpful documentation benefits all users
+Help improve Playnite by reporting any bugs, issues, or glitches you encounter while using the software. Detailed bug reports with steps to reproduce the problem can be invaluable to the developers.
+
+**Translate:**
+
+Playnite is available in multiple languages, and you can contribute by translating the software into your native language or improving existing translations on [Crowdin](https://crowdin.com/project/playnite).
+
+**Support Extensions:**
+
+If you're a developer, consider creating or maintaining extensions for Playnite. Extensions can enhance Playnite's functionality and provide more options to users.
+
+**Participate in Discussions:**
+
+Engage in discussions related to Playnite. Provide help and support to other users, answer questions, and share your knowledge.
+
+**Documentation:**
+
+Contribute to improving the Playnite documentation, including user guides, FAQs, and tutorials. Clear and helpful documentation benefits all users
 
 Remember that support comes in various forms, and even spreading the word about Playnite or helping newcomers can contribute to the growth and success of the project. 
 
@@ -51,7 +69,9 @@ Not in near future, mainly for technical reasons. More information [here](https:
 
 No. While this will vary depending on the specific library plugin in charge of handling the service library, generally Playnite does not replace game clients like Steam, Epic Games Store, GOG, or others. Playnite is designed to complement these game clients by providing a unified library and interface for all your games, regardless of where they are purchased or installed.
 
-While Playnite provides a robust and feature-rich game library management solution, it does not replace the need for the original game clients. You may still require these clients to access platform-specific features like games downloading, installing and uninstalling, multiplayer, friends, or community features offered by the games respective clients.
+While Playnite provides a robust and feature-rich game library management solution, it does not replace the need for the original game clients.
+
+You may still require these clients to access platform-specific features like games downloading, installing and uninstalling, multiplayer, friends, or community features offered by the games respective clients.
 
 Playnite works alongside these clients to provide a centralized and organized gaming experience.
 
@@ -103,7 +123,9 @@ Use the "funnel" filter button next to the search field to open filter panel, se
 
 ### How do I close (emulated) game with a controller?
 
-Playnite has no built-in functionality for it right now. If a game (or an emulator) doesn't have a way to ecoverxit via some menu, you will need to use a 3rd party app that can simulate `ALT+F4` with a controller button.  Some example of apps you can use include [JoyXoff]([JoyXoff](https://joyxoff.com/en/)), [AntiMicroX](https://antimicrox.github.io/), [Controller Companion](http://controllercompanion.com/) and [reWASD](https://www.rewasd.com/).
+Playnite has no built-in functionality for it right now.
+
+If a game (or an emulator) doesn't have a way to ecoverxit via some menu, you will need to use a 3rd party app that can simulate `ALT+F4` with a controller button.  Some example of apps you can use include [JoyXoff]([JoyXoff](https://joyxoff.com/en/)), [AntiMicroX](https://antimicrox.github.io/), [Controller Companion](http://controllercompanion.com/) and [reWASD](https://www.rewasd.com/).
 
 ### How do I backup Playnite library and move it to another PC?
 

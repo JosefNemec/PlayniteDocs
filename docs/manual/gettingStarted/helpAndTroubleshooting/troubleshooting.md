@@ -6,9 +6,16 @@
 Refer to the games FAQ page [here](../../library/games/faq.md).
 
 ### General network issues
-
-Usually caused by firewall blocking Playnite installer (check firewall settings) or by DNS functionality being broken on ISP's side. For the latter, switch to using CloudFlare's or Google's DNS:
-
+  
+Usually occurs while installing Playnite or downloading addons. It can happen due to multiple reasons:
+  
+  - Firewall or anti-virus blocking Playnite processes
+  - DNS functionality being broken on ISP's side
+  - [network issue on ISP's side](https://github.com/JosefNemec/Playnite/issues/3268)
+  - restarting internet modem also helped some people to fix network related issues
+  
+  In case of DNS issues, you can use CloudFlare's or Google's DNS servers:
+  
 https://developers.cloudflare.com/1.1.1.1/setup/windows/
 
 https://developers.google.com/speed/public-dns/docs/using#windows

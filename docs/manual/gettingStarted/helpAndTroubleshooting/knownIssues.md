@@ -6,7 +6,9 @@
 
 ## General performance issues and crashes
 
-- **Custom Themes and Extensions:** Custom themes and extensions can impact Playnite's performance and stability. If you encounter issues, try these steps:
+**Custom Themes and Extensions:**
+
+Custom themes and extensions can impact Playnite's performance and stability. If you encounter issues, try these steps:
   
   - Switch to the default theme.
   
@@ -16,27 +18,41 @@
   
   - Test in `Safe Mode`, which can be opened in `Menu` > `Help` > `Restart in Safe Mode` or by opening the `Safe Mode.bat` found in the installation folder.
 
-- **Antivirus Interference:** Some antivirus apps, like Malwarebytes and Avast, may have false positive detections for Playnite, leading to crashes and odd behavior. Check your antivirus settings.
+**Antivirus Interference:**
 
-- **Multiple GPUs:** If your system has both integrated and dedicated GPUs, ensure that Playnite is using the dedicated GPU and not the integrated one. [Help here](https://www.digitalcitizen.life/set-which-video-cards-are-used-apps-games-windows-10/) 👈
+Some antivirus apps, like Malwarebytes and Avast, may have false positive detections for Playnite, leading to crashes and odd behavior. Check your antivirus settings.
 
-- **System File Corruption:** Random crashes may result from system file corruptions. Try reinstalling the latest .NET Framework version and running a system integrity check using the [System File Checker tool (sfc)](https://support.microsoft.com/en-au/topic/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system-files-79aa86cb-ca52-166a-92a3-966e85d4094e) to repair missing or corrupted system files.
+**Multiple GPUs:**
+
+If your system has both integrated and dedicated GPUs, ensure that Playnite is using the dedicated GPU and not the integrated one. [Help here](https://www.digitalcitizen.life/set-which-video-cards-are-used-apps-games-windows-10/) 👈
+
+**System File Corruption:**
+
+Random crashes may result from system file corruptions. Try reinstalling the latest .NET Framework version and running a system integrity check using the [System File Checker tool (sfc)](https://support.microsoft.com/en-au/topic/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system-files-79aa86cb-ca52-166a-92a3-966e85d4094e) to repair missing or corrupted system files.
 
 ## Authentication and syncing Issues
 
-- **Integrations require re-authentication:** When moving or syncing Playnite to a different system, some services may invalidate authentication sessions. Avoid syncing files tied to specific user/system locations, such as browser cache and ExtensionsData folders.
+**Integrations require re-authentication:**
 
-- **Cannot authenticate with several accounts after Playnite update:** Using "Clear web cache" in the "Advanced" settings menu usually resolves the issue.
+When moving or syncing Playnite to a different system, some services may invalidate authentication sessions. Avoid syncing files tied to specific user/system locations, such as browser cache and ExtensionsData folders.
+
+**Cannot authenticate with several accounts after Playnite update:**
+
+Using "Clear web cache" in the "Advanced" settings menu usually resolves the issue.
 
 ## Graphical and UI issues
 
-- **Graphical Glitches with Hardware acceleration enabled:** This issue can be caused by:
+**Graphical Glitches with Hardware acceleration enabled:**
+
+This issue can be caused by:
   
   - Third-party apps that inject overlays to other processes, such as RivaTuner and derivatives like MSI Afterburner, EVGA Precision etc. If you use any software like this, add Playnite processes to exclusion lists if needed.
   - `Nahimic Service`, generally causes issues to a lot of apps and games [including Playnite.](https://playnite.link/forum/thread-747.html)
   - Outdated or problematic graphics drivers. Try to update or reinstall GPU drivers.
 
-- **UI Stuttering and Mouse Lag:** Users with G-Sync monitors or FreeSync-enabled AMD cards may experience UI stuttering. It can occur when using G-Sync monitor with "windowed mode" support enabled. To fix the issue create a profile for Playnite processes in 
+**UI Stuttering and Mouse Lag:**
+
+Users with G-Sync monitors or FreeSync-enabled AMD cards may experience UI stuttering. It can occur when using G-Sync monitor with "windowed mode" support enabled. To fix the issue create a profile for Playnite processes in 
   Nvidia's control panel and set `Monitor Technology` to `Fixed Refresh`
   
   - Open the NVIDIA Control Panel and navigate to "Manage 3D Settings"
@@ -44,33 +60,27 @@
   - Click "Add" to add a program, and select Playnite
   - Change the "Monitor Technology" from "G-SYNC" to "Fixed Refresh"
 
-- **Blur-Related Issue:** Integrated Intel GPUs may struggle with background blur. Adjust blur intensity and quality or disable it in settings.
+**Blur-Related Issue:**
 
-- **Integrated GPU Compatibility:** Some integrated GPUs may not fully support or have optimal performance of certain WPF (User Interface framework Playnite uses) features used by Playnite. Ensure Playnite runs on a dedicated GPU or disable effects like background blur and transition animations in Playnite Settings.
+Integrated Intel GPUs may struggle with background blur. Adjust blur intensity and quality or disable it in settings.
 
-- **Add-On Performance Impact:** Some add-ons, including plugins and themes, can affect performance. Disable individual add-ons to identify any problematic ones.
+**Integrated GPU Compatibility:**
 
-- **UI Stuttering When Scrolling Large Lists:** Slow hard drives or disabled GPU acceleration can cause this issue. Ensure that Hardware acceleration is enabled and try enabling `Asynchronous image loading` in `Settings` > `Advanced` > `Performance`.
+Some integrated GPUs may not fully support or have optimal performance of certain WPF (User Interface framework Playnite uses) features used by Playnite. Ensure Playnite runs on a dedicated GPU or disable effects like background blur and transition animations in Playnite Settings.
 
-## Connectivity issues
+**Add-On Performance Impact:**
 
-- **Download and Add-On connectivity issues:** 
-  
-  Usually occurs when trying to download addons. It can happen due to multiple reasons:
-  
-  - firewall or anti-virus blocking Playnite processes
-  - DNS functionality being broken on ISP's side
-  - [network issue on ISP's side](https://github.com/JosefNemec/Playnite/issues/3268)
-  - restarting internet modem also helped some people to fix network related issues
-  
-  In case of DNS issues, you can use CloudFlare's or Google's DNS servers:
-  
-  [Set up 1.1.1.1 on Windows · Cloudflare 1.1.1.1 docs](https://developers.cloudflare.com/1.1.1.1/setup/windows/)  
-  [Google](https://developers.google.com/speed/public-dns/docs/using#windows)
+Some add-ons, including plugins and themes, can affect performance. Disable individual add-ons to identify any problematic ones.
+
+**UI Stuttering When Scrolling Large Lists:**
+
+Slow hard drives or disabled GPU acceleration can cause this issue. Ensure that Hardware acceleration is enabled and try enabling `Asynchronous image loading` in `Settings` > `Advanced` > `Performance`.
 
 ## Web View and component issues
 
-- **Web View Initialization Failure:** This usually happens when program files are missing, damaged, or blocked. You can try following to fix the issue:
+**Web View Initialization Failure:**
+
+This usually happens when program files are missing, damaged, or blocked. You can try following to fix the issue:
   - Make sure your antivirus doesn't block files from Playnite's installation folder.
   - Check that all files are installed correctly or try re-installing Playnite.
   - Install [Visual Studio C++ 2019 redistributables](https://aka.ms/vs/17/release/vc_redist.x86.exe) if you are on Windows 7 or 8.
@@ -99,17 +109,6 @@ Running Playnite with elevated user rights (as Administrator) can prevent drag-a
 ### Games disappearing, Resetting Properties
 
 Syncing Playnite's library files via cloud solutions (OneDrive, Google Drive) can result in this issue. Ensure file sync only happens when Playnite is not running and avoid running multiple Playnite instances using the same cloud files.
-
-### Some Metadata is not Being Downloaded
-
-Possible causes include:
-
-- Metadata download cancelled after games have been imported. You can start new bulk download via Library -> Download metadata menu.
-- Metadata download is disabled in general settings -> "Download metadata after importing games".
-- Metadata download is configured in a way that doesn't download anything. Check in settings -> Metadata section.
-- Installed metadata sources don't provide any metadata. Integration plugins provide some metadata for games they import, plus Playnite by default uses IGDB to fill in missing data, but it's still possible that some games won't be properly matched in any available metadata sources and will have missing information. In that case:
-  - You can edit info manually and use Google Image download to fill in missing media files.
-  - You can try installing metadata plugins which can fetch game info from additional sources.
 
 ### Crash on Startup (Windows 7 Only)
 
