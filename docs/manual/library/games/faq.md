@@ -7,7 +7,11 @@ See [here](../../gettingStarted/helpAndTroubleshooting/troubleshooting.md#my-gam
 
 ### I uninstalled a library plugin but its games are still there, why?
 
-See [here](removingGames.md#removing-games)
+Uninstalling a library plugin **does not** remove its games. Playnite never removes automatically removes a game that has already been imported to your library.
+
+If you wish to remove the games from a certain library, you need to remove them using the methods mentioned [here](removingGames.md).
+
+An easy way to remove them is by filtering by `Source` or `Library` in the Filter Panel and selecting all games with `Ctrl+A`.
 
 ### Can I add games that are not in my library, such as wishlisted games, console or physical games?
 
