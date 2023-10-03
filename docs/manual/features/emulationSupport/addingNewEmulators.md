@@ -110,7 +110,7 @@ Profiles handle how game is started and imported.
 
 ### Startup script
 
-If your profile contains `Startup script` code, Playnite will use that instead of general profile settings to launch an emulator. Emulator startup script works in the same way as [game startup scripts](../scriptingSupport/startupScript.mdt). The only difference is that emulator script has some additional variables available:
+If your profile contains `Startup script` code, Playnite will use that instead of general profile settings to launch an emulator. Emulator startup script works in the same way as [game startup scripts](../scriptingSupport/startupScript.md). The only difference is that emulator script has some additional variables available:
 
 | Variable         | Description                                                                             |
 |:---------------- |:--------------------------------------------------------------------------------------- |

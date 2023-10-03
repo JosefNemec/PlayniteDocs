@@ -33,7 +33,7 @@ Action properties
 | File     | Path is executed as a standard executable file.                                                               |
 | URL      | Path is executed as an URL address.                                                                           |
 | Emulator | Action is started using emulator configuration.                                                               |
-| Script   | Script used to start an application. See [game scripts](../../features/scriptingSupport/advanced.md#startup-script) page for more details. |
+| Script   | Script used to start an application. See [game scripts](../../features/scriptingSupport/startupScript.md) page for more details. |
 
 > [!WARNING]
 > Non-play actions that use `Script` startup method will run synchronously on main thead. This means that they will block Playnite's UI until the script is finished running. Therefore make sure you don't use any long running operations in your startup script.
