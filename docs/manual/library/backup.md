@@ -1,5 +1,7 @@
-# Data Backup
+# Overview
 ---------------------
+
+Playnite allows you to configure automatic backups for safety. These backups can be used to restore Playnite to a previous state in case of installation issues, library corruption, or when moving a library to another PC.
 
 > [!NOTE]
 > Playnite can create and restore backups only during application startup. This means that manual backup/restore requires Playnite to be restarted and automatic backup can be currently done only on application startup.
@@ -10,11 +12,15 @@
 
 Automatic backups can be configured in application settings under `Backup` section (by default disabled). These backup are currently only possible on application startup and can be configured to be run daily or weekly.
 
+![Backups Support](images/backup_BackupsSupport.png)
+
 If you need more granular control over when and how backups are started, see [starting backups externally](#starting-backups-externally) section.
 
 ## Manual backups
 
-Backups can be created or restored manually from main menu, `Library` section, or via commands from global search view.
+Backups can be manually created or restored under `Main menu` -> `Library` or via commands from the [keyboard launcher](../features/keyboardLauncher.md).
+
+![Creating and Restoring Backups](images/backup_CreateRestoreBackups.jpg)
 
 ## Backup items
 

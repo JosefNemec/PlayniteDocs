@@ -63,13 +63,7 @@ You can configure Playnite to automatically close game clients after you close a
 
 Playnite allows you to configure automatic backups for safety. These backups can be used to restore Playnite to a previous state in case of installation issues, library corruption, or when moving a library to another PC.
 
-Configure this in the **Backup** settings section.
-
-![Backups Support](images/gettingStarted_BackupsSupport.png)
-
-Backups can be manually created or restored under `Main menu` -> `Library`.
-
-![Creating and Restoring Backups](images/gettingStarted_CreateRestoreBackups.jpg)
+For more information, refer to [Backup](../library/backup.md).
 
 ## Installing library integrations and extensions
 
