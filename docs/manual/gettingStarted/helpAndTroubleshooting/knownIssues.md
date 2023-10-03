@@ -43,8 +43,6 @@
   - Select the "Program Settings" tab
   - Click "Add" to add a program, and select Playnite
   - Change the "Monitor Technology" from "G-SYNC" to "Fixed Refresh"
-  
-  The same issue can be seen on AMD cards with FreeSync enabled. The issue is [in UI toolkit](https://github.com/dotnet/wpf/issues/2294) we use and so far was not addressed by the developers.
 
 - **Blur-Related Issue:** Integrated Intel GPUs may struggle with background blur. Adjust blur intensity and quality or disable it in settings.
 
