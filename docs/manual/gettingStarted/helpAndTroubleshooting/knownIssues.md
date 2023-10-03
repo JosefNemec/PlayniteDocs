@@ -46,7 +46,7 @@
 
 - **Blur-Related Issue:** Integrated Intel GPUs may struggle with background blur. Adjust blur intensity and quality or disable it in settings.
 
-- **Integrated GPU Compatibility:** Some integrated GPUs may not fully support or certain WPF (User Interface Framework) features used by Playnite. Ensure Playnite runs on a dedicated GPU or disable effects like background blur and transition animations in Playnite Settings..
+- **Integrated GPU Compatibility:** Some integrated GPUs may not fully support or have optimal performance of certain WPF (User Interface framework Playnite uses) features used by Playnite. Ensure Playnite runs on a dedicated GPU or disable effects like background blur and transition animations in Playnite Settings.
 
 - **Add-On Performance Impact:** Some add-ons, including plugins and themes, can affect performance. Disable individual add-ons to identify any problematic ones.
 
