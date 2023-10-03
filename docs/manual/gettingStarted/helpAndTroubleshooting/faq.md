@@ -13,9 +13,9 @@ Playnite is a combination of `Play` and `Unite`.
 
 ### Is Playnite safe to use?
 
-Rest assured, Playnite prioritizes your privacy and security. It does not store any user information, and there's no need to provide personal details to import installed games. Account connections are typically established via official login web forms, and Playnite only stores web session cookies or tokens, just as your web browser does when you log in to these services.
+Its safety largely depends on how the installed library and other types of plugins work and what they do, as they handle various aspects of game integration and other functionality. When connecting accounts, it primarily relies on the practices implemented by these plugins, such as using official login web forms and storing web session cookies or tokens, similar to how your web browser does when you log in to these services but the specifics will vary from plugin to plugin. For more information about safety when installing and using plugins, refer to [here](../../features/extensionsSupport/faq.md#are-extensions-safe-to-use).
 
-All information about your gaming library is stored locally on your PC, ensuring your data remains under your control.
+When it comes to your user data, you can rest assured as all information about your gaming library is stored exclusively on your PC. This guarantees that your data remains securely within your control at all times.
 
 ### How can I support the project?
 
