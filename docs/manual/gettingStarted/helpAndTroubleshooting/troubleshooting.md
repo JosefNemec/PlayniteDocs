@@ -53,3 +53,9 @@ Another easy way to find if a game is in your library is by searching for your g
 2. Make sure that you're logged into the right account with the library plugin
 3. Check if the game is present in `Main menu` > `Settings` > `Import exclusion list`
 4. Check that you don't have a filter enabled (via the filter panel) as explained in the previous section which would prevent games from being shown.
+
+### My controller is not working
+
+Playnite is currently not compatible with all types of controllers. For more information, refer to [controller support](../playniteFullscreenMode.md#controller-support).
+
+Additionallly, certain software can affect how your PC recognizes your controller by converting it to a secondary controller in your system, making Playnite be unable to detect it. To fix this, press `Select` or click the `Playnite` icon to open the menu then navigate to `Settings` > `Input` and verify that the `Primary Controller` option is disabled.
