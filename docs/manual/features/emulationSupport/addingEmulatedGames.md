@@ -12,7 +12,7 @@ This section will guide you through configuring a scanner that Playnite will use
 > [!NOTE]
 > [Custom profiles](addingNewEmulators.md#configuring-a-custom-emulator-profile) primarily matches games by specified file extensions. If you want to increase accuracy of the import, make sure you also assign correct platforms to the profile and that those platforms have [platform specification](../../library/libraryManager.md#platform-specification) assigned to them.
 
-### Auto-scan configurations
+## Auto-scan configurations
 
 ---------------------
 

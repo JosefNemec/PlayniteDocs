@@ -1,4 +1,4 @@
-### Example scripts
+## Example scripts
 ---------------------
 
 Below are some examples of useful scripts you can use:
