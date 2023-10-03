@@ -1,7 +1,7 @@
 ## Troubleshooting
 ---------------------
 
-### General download issues
+### General network issues
 
 Usually caused by firewall blocking Playnite installer (check firewall settings) or by DNS functionality being broken on ISP's side. For the latter, switch to using CloudFlare's or Google's DNS:
 
