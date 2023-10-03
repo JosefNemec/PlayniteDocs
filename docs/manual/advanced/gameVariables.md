@@ -13,16 +13,16 @@ To use a variable, encapsulate it with curly brackets in a string, for example:
 
 |Variable|Description|
 | ------------- | ------------- |
-|InstallDir|Game installation directory|
-|InstallDirName|Name of installation folder
-|ImagePath|Game ISO/ROM path if set|
-|ImageName|Game ISO/ROM file name|
-|ImageNameNoExt|Game ISO/ROM file name without extension|
-|PlayniteDir|Playnite's installation directory|
-|Name|Game name |
-|Platform|Game's platform |
-|GameId|Game's ID |
-|DatabaseId|Game's database ID |
-|PluginId|Game's library plugin ID |
-|Version|Game version|
-|EmulatorDir|Emulator's installation directory|
+|`InstallDir`|Game installation directory|
+|`InstallDirName`|Name of installation folder
+|`ImagePath`|Game ISO/ROM path if set|
+|`ImageName`|Game ISO/ROM file name|
+|`ImageNameNoExt`|Game ISO/ROM file name without extension|
+|`PlayniteDir`|Playnite's installation directory|
+|`Name`|Game name |
+|`Platform`|Game's platform |
+|`GameId`|Game's ID |
+|`DatabaseId`|Game's database ID |
+|`PluginId`|Game's library plugin ID |
+|`Version`|Game version|
+|`EmulatorDir`|Emulator's installation directory|
