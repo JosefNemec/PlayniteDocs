@@ -1,6 +1,6 @@
 - name: User manual
   href: manual/
-- name: Add-ons development tutorials
+- name: Add-ons development
   href: tutorials/
 - name: API Documentation
   href: api/
