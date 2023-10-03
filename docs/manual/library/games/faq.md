@@ -36,3 +36,13 @@ Additionally, if your purpose is only to be able to see your wishlisted games in
 Yes, whether you want to launch different versions of the same game or even different games or executables you can use Game Actions for this purpose.
 
 For more information, see [here](gameActions.md).
+
+### My games are missing metadata, why?
+
+In most cases, this happens when you restart Playnite after first importing games to your library while the metadata download process has not yet finished. In such cases, Playnite will not start this process again upon restart and you have to initiate this process again manually.
+
+For more information, refer to [here](metadata.md#updating-game-metadata).
+
+Additionally, it may be possible that your currently installed metadata plugins from which Playnite obtains this data from may not be able to provide data for all metadata fields for your games, like icons or other data. In such case, you can try installing and configuring additional metadata plugins.
+
+If you are wondering what metadata plugins you should install, please refer to [here](../../features/extensionsSupport/faq.md#what-are-the-best-extensions-that-i-should-install).

@@ -28,7 +28,9 @@ These metadata fields help you keep your game library well-organized and provide
 For a full list of available metadata, you can right click a game and select `Edit…`.
 
 ### How is metadata obtained?
-Metadata is generally obtained with metadata providers as the form of Metadata extensions, which obtain this data from third party services to Playnite to add to imported games. To learn how to install metadata extensions to your Playnite installation see [here](../../features/extensionsSupport/installingExtensions.md#installing-additional-metadata-providers).
+Metadata is generally obtained with metadata providers as the form of Metadata extensions, which obtain this data from third party services to Playnite to add to imported games.
+
+To learn how to install metadata extensions to your Playnite installation see and configure them, refer to [here](../../features/extensionsSupport/installingExtensions.md#installing-additional-metadata-providers).
 
 ### Updating game metadata
 By default Playnite will automatically obtain and apply to your games when you import them. If you wish to obtain metadata after first importing the games, it can be done in different ways on Desktop Mode:
