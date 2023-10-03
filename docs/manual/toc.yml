@@ -40,8 +40,8 @@
           href: features/emulationSupport/addingEmulatedGames.md
         - name: Advanced
           href: features/emulationSupport/advanced.md
-        - name: Frequently Asked Questions (FAQ)
-          href: features/emulationSupport/faq.md
+        - name: Troubleshooting
+          href: features/emulationSupport/troubleshooting.md
     - name: Extensions support
       href: features/extensionsSupport/extensionsSupportOverview.md
       items:
