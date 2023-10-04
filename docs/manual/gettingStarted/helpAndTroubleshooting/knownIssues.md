@@ -146,5 +146,14 @@ Incompatibility between streaming software and Playnite's UI library (WPF) can c
 
 ### Playnite Takes Longer to Start After Windows Update
 
-Open Command Prompt as admin and run commands to update .NET:
-`c:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe update` and `c:\Windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update`.
+Open Command Prompt as admin and these run commands:
+```
+c:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe update
+c:\Windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update
+```
+
+### Controller input doesn't work in Fullscreen mode after exiting a game
+
+It's an issue with game/emulator/Windows not returning application focus properly. We already have some workarounds for it in place, plus you can enable option to use "guide" controller button to refocus FS mode, but it's still not 100% reliable and we can't do much more about at this point (as far as we are aware). More aggressive app focusing could cause issues elsewhere.
+
+Switching from a game and back (using alt-tab for example), has been known to increase likelihood of the issue appearing once the game eventually stops running, for some reason.

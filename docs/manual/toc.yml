@@ -14,10 +14,13 @@
       items:
         - name: Frequently Asked Questions (FAQ)
           href: gettingStarted/helpAndTroubleshooting/faq.md
+        - name: Game library specific FAQs
+          href: library/games/faq.md
         - name: Troubleshooting
           href: gettingStarted/helpAndTroubleshooting/troubleshooting.md
         - name: Known Issues
           href: gettingStarted/helpAndTroubleshooting/knownIssues.md
+
 - name: Features
   href: features/featuresOverview.md
   items:
