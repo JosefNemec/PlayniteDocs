@@ -9,10 +9,18 @@ See [Adding Emulated Games](../../features/emulationSupport/addingEmulatedGames.
 
 ### Manually
 
-- **Method #1:** Drag and drop game executable or shortcut to Playnite's window.
-- **Method #2:** Scan directory for multiple games/apps via Add Game -> Scan Automatically menu.
-- **Method #3:** Use Add Game -> Manually menu. Using this method requires manual configuration of game's Play action, otherwise you won't be able to launch the game.
-Play time tracking
+**Method #1**
+
+Drag and drop game executable or shortcut to Playnite's window.
+
+**Method #2**
+
+Scan directory for multiple games/apps via Add Game -> Scan Automatically menu.
+
+**Method #3**
+
+Use Add Game -> Manually menu. Using this method requires manual configuration of game's Play action, otherwise you won't be able to launch the game.
+
 
 > [!NOTE]
 > If play time tracking doesn't work after manually importing a game, try switching different tracking mode. You can do it on Actions tab while editing a game. Folder tracking usually helps as an alternative tracking method with problematic games.

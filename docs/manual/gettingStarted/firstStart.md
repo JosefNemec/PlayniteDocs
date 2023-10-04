@@ -27,4 +27,6 @@ Follow these steps to get started:
 
 4. **Importing Games:** With the setup complete, Playnite will launch in Desktop Mode and start importing games from the libraries you configured.
 
+5. **Adding additional games:** You can also add games into the library manually, game import is not limited to library integrations only. For emulated games see [this page](../features/emulationSupport/addingEmulatedGames.md). For any game in general see [this page](../library/games/addingGames.md#manually).
+
 This wizard ensures that Playnite is tailored to your gaming library, making it a seamless and personalized experience from the very start. You can always revisit and adjust these settings later to suit your changing preferences in the add-ons configuration window. For more information refer to [here](../features/extensionsSupport/installingExtensions.md).

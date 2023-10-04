@@ -68,21 +68,20 @@
 - name: Library
   href: library/libraryOverview.md
   items:
-    - name: Games
+    - name: Overview
       href: library/games/gamesOverview.md
-      items:
-      - name: Adding games
-        href: library/games/addingGames.md
-      - name: Removing games
-        href: library/games/removingGames.md
-      - name: Metadata
-        href: library/games/metadata.md
-      - name: Game actions
-        href: library/games/gameActions.md
-      - name: Playtime Import
-        href: library/games/playtimeImport.md
-      - name: Frequently Asked Questions (FAQ)
-        href: library/games/faq.md
+    - name: Adding games
+      href: library/games/addingGames.md
+    - name: Removing games
+      href: library/games/removingGames.md
+    - name: Metadata
+      href: library/games/metadata.md
+    - name: Game actions
+      href: library/games/gameActions.md
+    - name: Playtime Import
+      href: library/games/playtimeImport.md
+    - name: Frequently Asked Questions (FAQ)
+      href: library/games/faq.md
     - name: Library manager
       href: library/libraryManager.md
     - name: Backup
