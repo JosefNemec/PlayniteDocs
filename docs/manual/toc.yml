@@ -1,26 +1,98 @@
-- name: Application arguments
-  href: cmdlineArguments.md
-
-- name: Game variables
-  href: gameVariables.md
-
-- name: Game scripts
-  href: gameScripts.md
-
-- name: Emulator support
-  href: emulators.md
-
-- name: Game actions
-  href: gameActions.md
-
-- name: Library manager
-  href: libraryManager.md
-
-- name: Playtime Import
-  href: playtimeImport.md
-
-- name: Backups
-  href: backup.md
-
-- name: Metadata
-  href: metadata.md
+- name: Getting started
+  href: gettingStarted/gettingStartedOverview.md
+  items:
+    - name: First start
+      href: gettingStarted/firstStart.md
+    - name: Playnite Desktop Mode
+      href: gettingStarted/playniteDesktopMode.md
+    - name: Playnite Fullscreen Mode
+      href: gettingStarted/playniteFullscreenMode.md
+    - name: Configuring Playnite
+      href: gettingStarted/configuringPlaynite.md
+    - name: Help and Troubleshooting
+      href: gettingStarted/helpAndTroubleshooting/helpAndTroubleshootingOverview.md
+      items:
+        - name: Frequently Asked Questions (FAQ)
+          href: gettingStarted/helpAndTroubleshooting/faq.md
+        - name: Troubleshooting
+          href: gettingStarted/helpAndTroubleshooting/troubleshooting.md
+        - name: Known Issues
+          href: gettingStarted/helpAndTroubleshooting/knownIssues.md
+- name: Features
+  href: features/featuresOverview.md
+  items:
+    - name: Filters and Filters presets
+      href: features/filtersAndFiltersPresets.md
+    - name: Game library statistics
+      href: features/gameLibraryStatistics.md
+    - name: Keyboard launcher
+      href: features/keyboardLauncher.md
+    - name: Random Game Picker
+      href: features/randomGamePicker.md
+    - name: Software launch support
+      href: features/softwareLaunchSupport.md
+    - name: Emulation support
+      href: features/emulationSupport/emulationSupportOverview.md
+      items:
+        - name: Adding new emulators
+          href: features/emulationSupport/addingNewEmulators.md
+        - name: Adding emulated games
+          href: features/emulationSupport/addingEmulatedGames.md
+        - name: Troubleshooting
+          href: features/emulationSupport/troubleshooting.md
+    - name: Extensions support
+      href: features/extensionsSupport/extensionsSupportOverview.md
+      items:
+        - name: Installing extensions
+          href: features/extensionsSupport/installingExtensions.md
+        - name: Frequently Asked Questions (FAQ)
+          href: features/extensionsSupport/faq.md
+    - name: Themes Support
+      href: features/themesSupport/themesSupportOverview.md
+      items:
+        - name: Installing themes
+          href: features/themesSupport/installingThemes.md
+        - name: Frequently Asked Questions (FAQ)
+          href: features/themesSupport/faq.md
+    - name: Scripting Support
+      href: features/scriptingSupport/scriptingSupportOverview.md
+      items:
+        - name: Example scripts
+          href: features/scriptingSupport/exampleScripts.md
+        - name: Startup Script
+          href: features/scriptingSupport/startupScript.md
+        - name: Help and troubleshooting
+          href: features/scriptingSupport/helpAndTroubleshooting.md
+    - name: Other
+      href: features/otherFeatures.md
+- name: Library
+  href: library/libraryOverview.md
+  items:
+    - name: Games
+      href: library/games/gamesOverview.md
+      items:
+      - name: Adding games
+        href: library/games/addingGames.md
+      - name: Removing games
+        href: library/games/removingGames.md
+      - name: Metadata
+        href: library/games/metadata.md
+      - name: Game actions
+        href: library/games/gameActions.md
+      - name: Playtime Import
+        href: library/games/playtimeImport.md
+      - name: Frequently Asked Questions (FAQ)
+        href: library/games/faq.md
+    - name: Library manager
+      href: library/libraryManager.md
+    - name: Backup
+      href: library/backup.md
+- name: Advanced
+  href: advanced/advancedOverview.md
+  items:
+    - name: Command-line arguments
+      href: advanced/cmdlineArguments.md
+    - name: Game variables
+      href: advanced/gameVariables.md
+    - name: Other
+      href: advanced/other.md
