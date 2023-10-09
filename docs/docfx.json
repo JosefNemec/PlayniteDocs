@@ -20,6 +20,9 @@
     }
   ],
   "build": {
+    "sitemap": {
+      "baseUrl": "https://api.playnite.link/docs/"
+    },
     "content": [
       {
         "files": [
