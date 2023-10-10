@@ -18,8 +18,8 @@ Follow these steps to get started:
 
 2. **Configuration for Installed Plugins:** After the installation of the library extensions, you'll be presented with a configuration screen for each plugin. Make sure to configure each one according to your preferences and requirements.
 
-> [!NOTE]
-> Note that, for most integrations, you may need to authenticate to import all the games in your account. Authentication requirements can vary for each library integration.
+   > [!NOTE]
+   > Note that, for most integrations, you may need to authenticate to import all the games in your account. Authentication requirements can vary for each library integration.
 
 3. **Finalize Setup:** Once you've completed the configurations for each of the integrations, click "Finish" to conclude the first-time setup configuration.
 
