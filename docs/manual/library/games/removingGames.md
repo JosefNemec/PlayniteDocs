@@ -6,8 +6,8 @@
 1. Select the games(s) you want to remove in the Playnite UI.
 2. Use `Right-Click` and select  `Remove`
 
-> [!NOTE]
->For this option, it's possible to select multiple games. For more information, refer to [here](../../gettingStarted/playniteDesktopMode.md#tips).
+   > [!NOTE]
+   > For this option, it's possible to select multiple games. For more information, refer to [here](../../gettingStarted/playniteDesktopMode.md#tips).
 
 ### Fullscreen Mode
 

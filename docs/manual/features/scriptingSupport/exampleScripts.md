@@ -11,7 +11,7 @@ Below are some examples of useful scripts you can use:
 Start-Process -FilePath "c:\somepath\someapp.exe" -ArgumentList "-some arguments"
 ```
 
-If you want to start application minimized and application doesn't have native support for it then add `-WindowStyle` argument to the end of the line.
+If you want to start application minimized and application doesn't have native support for it then add `-WindowStyle Minimized` argument to the end of the line.
 
 > [!WARNING]
 > Some applications won't work properly (or even start) when started using working directory outside of their application directory. In that case you need to use `-WorkingDirectory` parameter and specify working directory manually.

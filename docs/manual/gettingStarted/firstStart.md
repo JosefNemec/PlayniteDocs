@@ -14,7 +14,7 @@ Follow these steps to get started:
 - Select the library integrations you want to install and use.
 - Click `Next` Playnite will proceed to download and install your chosen library extensions.
 
-![Library Integrations Selection](images/firstStart_Wizard2.png)
+   ![Library Integrations Selection](images/firstStart_Wizard2.png)
 
 2. **Configuration for Installed Plugins:** After the installation of the library extensions, you'll be presented with a configuration screen for each plugin. Make sure to configure each one according to your preferences and requirements.
 
@@ -23,7 +23,7 @@ Follow these steps to get started:
 
 3. **Finalize Setup:** Once you've completed the configurations for each of the integrations, click "Finish" to conclude the first-time setup configuration.
 
-![Finalize Setup](images/firstStart_Wizard3.png)
+   ![Finalize Setup](images/firstStart_Wizard3.png)
 
 4. **Importing Games:** With the setup complete, Playnite will launch in Desktop Mode and start importing games from the libraries you configured.
 

@@ -38,7 +38,7 @@ Filter Presets can be activated from:
 
 3. Filter Presets button in Top Panel
 
-![FilterPresetsActivate](images/filtersAndFiltersPresets_FilterPresetsActivate.jpg)
+   ![FilterPresetsActivate](images/filtersAndFiltersPresets_FilterPresetsActivate.jpg)
 
 **On Fullscreen Mode:**
 

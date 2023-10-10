@@ -17,7 +17,7 @@ To automatically import an emulator follow these steps:
 2. Click `Scan folder` to open a files explorer window, select the folder where your emulator is located and wait for the scan to finish.
 3. Verify that the emulators you want to import are being displayed in the list and finally click `Import` to add the emulator.
 
-![Emulation_EmulatorImport](images/Emulation_EmulatorImport.jpg)
+   ![Emulation_EmulatorImport](images/Emulation_EmulatorImport.jpg)
 
 If your emulator was not found, it means that Playnite doesn't have an automatic configuration for it. Continue to the next section to learn how to manually add the emulator.
 
@@ -34,7 +34,7 @@ To manually add emulators:
 2. Enter the emulator information like the emulator `Name` and `Installation Folder`. Also select your emulator in `Emulator specification` if it's available
 3. Select `Add` to create an emulator profile. If you selected an `Emulator specification` in the previous steps, automatic configurations will be available to select. If you wish to use your own configuration or there is not any configuration available select `Custom profile` and proceed to the next section
 
-![Emulation_ManualEmulatorImport](images/Emulation_ManualEmulatorImport.jpg)
+   ![Emulation_ManualEmulatorImport](images/Emulation_ManualEmulatorImport.jpg)
 
 #### Configuring a custom emulator profile
 
@@ -50,7 +50,7 @@ For this example we'll be using the mGBA emulator:
 
 3. Input the `Arguments`. To know the arguments, refer to the specific emulator documentation online. Looking online, we've found this [documentation](https://emulation.gametechwiki.com/index.php/MGBA):
 
-![MgbaCommandLine](images/Emulation_MgbaCommandLine.jpg)
+   ![MgbaCommandLine](images/Emulation_MgbaCommandLine.jpg)
 
 `mgba` refers to the emulator executable. The `options` bracket is optional but we'll use the `-f` graphics option to start the emulator in fullscreen and finally `file` refers to the game file path.
 
@@ -61,7 +61,7 @@ The full `Arguments` line we'll end with is `-f "{ImagePath}"`.
 
 4. Configure the `Supported File Types` available in the documentation. Alternatively if you didn't find any, it is suggested to see what file types are available in the file selection dialog in the emulator itself.
 
-![Emulation_MgbaFileSelection](images/Emulation_MgbaFileSelection.jpg)
+   ![Emulation_MgbaFileSelection](images/Emulation_MgbaFileSelection.jpg)
 
 In this example, we end with `gba,zip,7z,elf,agb,mb,rom,bin`
 
@@ -70,7 +70,7 @@ In this example, we end with `gba,zip,7z,elf,agb,mb,rom,bin`
 
 5. After finishing, click `Save` to save the changes.
 
-![Emulation_CustomProfileConfig](images/Emulation_CustomProfileConfig.jpg)
+   ![Emulation_CustomProfileConfig](images/Emulation_CustomProfileConfig.jpg)
 
 > [!NOTE]
 > A lot of arcade emulators require ROM file to be passed via command line argument as a file name without complete path or file name without an extension. In that case you can use `{ImageName}` or `{ImageNameNoExt}` (See [game variables](../../advanced/gameVariables.md)), instead of {ImagePath} which contains full path to a ROM file.
