@@ -10,7 +10,7 @@ This feature can be activated by clicking the 🎲 button in the **Top Panel**.
 
 ![RandomGamePicker](images/randomGamePicker_RandomGamePicker.jpg)
 
-You can configure wheter this button should be displayed in `Settings` > `Appereance` > `Top Panel`.
+You can configure wheter this button should be displayed in `Settings` > `Appearance` > `Top Panel`.
 
 ### Fullscreen Mode
 

@@ -68,4 +68,4 @@ Completion statuses view offers additional settings used to configure how Playni
 In this section you can do the following:
 
 1. **Change Filter Presets display order:** Select an item and use the `Up` and `Down` buttons to the order you want
-2. **Change Ffilter preset configuration:** including if they should display in Fullscreen Mode.
+2. **Change Filter preset configuration:** including if they should display in Fullscreen Mode.

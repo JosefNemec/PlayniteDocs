@@ -4,6 +4,8 @@
 
 Playnite provides detailed statistics about your game library, including playtime, game completion, and more. Discover how to access and interpret these statistics.
 
+![Statistics](images/gameLibraryStatistics_Statistics.jpg)
+
 You can access this statistics view in two ways:
 
 1. **Via the Sidebar:**
@@ -14,4 +16,3 @@ You can access this statistics view in two ways:
    
    - Click on `Main menu` > `View` > `Statistics` to open the statistics view.
 
-![Statistics](images/gameLibraryStatistics_Statistics.jpg)

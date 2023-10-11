@@ -34,7 +34,7 @@ Afterwards, continue with the following:
 
 6. Modify any additional configuration you wish to and finally click `Save` to finish.
 
-![Emulation_ScannerConfig](images/Emulation_ScannerConfig.jpg)
+   ![Emulation_ScannerConfig](images/Emulation_ScannerConfig.jpg)
 
 #### Using an Auto-scan configuration to import emulated games
 

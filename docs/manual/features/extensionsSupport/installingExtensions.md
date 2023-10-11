@@ -11,19 +11,19 @@ Available extensions can be found on the Playnite addons database. This database
 1. Open the Playnite main menu by clicking the Playnite icon.
 2. Navigate to `Main menu` > `Add-ons…`, select `Browse` followed by `Libraries`.
 
-![Installing Additional Library Integrations](images/extensionsSupport_AddonsMenuItem.png)
+   ![Installing Additional Library Integrations](images/extensionsSupport_AddonsMenuItem.png)
 
 3. A list of available library plugins will be displayed. To install them, select the desired plugins and click `Install` on the right side. After finishing, click `Save` and restart Playnite when prompted.
 
-![Installing Additional Library Integrations](images/extensionsSupport_InstallLibPlugin.png)
+   ![Installing Additional Library Integrations](images/extensionsSupport_InstallLibPlugin.png)
 
 4. After restarting Playnite, you can configure the newly installed library extensions by navigating to `Add-ons…` and accessing the `Extensions settings` and `Libraries` sub-section.
 
-![Configuring Library Extensions](images/extensionsSupport_ConfigureLibPlugin.png)
+   ![Configuring Library Extensions](images/extensionsSupport_ConfigureLibPlugin.png)
 
 5. Finally, you can import games from the added libraries using the `Update Game Library` option in the main menu.
 
-![Importing Games](images/extensionsSupport_UpdateLibrary.png)
+   ![Importing Games](images/extensionsSupport_UpdateLibrary.png)
 
 ### Installing additional Metadata providers
 
@@ -34,11 +34,11 @@ To install additional metadata plugins:
 1. Open the Playnite main menu by clicking the Playnite icon.
 2. Navigate to `Add-ons…`, and select `Browse`, followed by `Metadata Sources`.
 
-![Installing Additional Metadata Providers](images/extensionsSupport_InstallMetadataPlugin.png)
+   ![Installing Additional Metadata Providers](images/extensionsSupport_InstallMetadataPlugin.png)
 
 3. After installing new metadata plugins and restarting Playnite, you can configure them in the `Metadata Sources` section under `Extension settings`.
 
-![Configuring Metadata Plugins](images/extensionsSupport_ConfigureMetadataPlugin.png)
+   ![Configuring Metadata Plugins](images/extensionsSupport_ConfigureMetadataPlugin.png)
 
 #### Configuring Metadata Download
 
@@ -46,4 +46,4 @@ You can configure the order in which Playnite will request data when downloading
 
 The configured order determines the sequence in which Playnite requests data, stopping at the first metadata extension that provides it.
 
-![image-20230111140734915](images/extensionsSupport_MetadataSettings.png)
+   ![image-20230111140734915](images/extensionsSupport_MetadataSettings.png)

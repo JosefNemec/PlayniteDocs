@@ -37,14 +37,14 @@ By default Playnite will automatically obtain and apply to your games when you i
 
 1. **Bulk/Batch metadata download:** This option allows you to download metadata for multiple games. To do this, navigate to `Main menu` > `Library` > `Download metadata…`
 
-![metadata_downloadBulk](images/metadata_downloadBulk.jpg)
+   ![metadata_downloadBulk](images/metadata_downloadBulk.jpg)
 
 > [!NOTE]
 >For this option, it's possible to select multiple games. For more information, refer to [here](../../gettingStarted/playniteDesktopMode.md#tips).
 
 2. **Single game metadata download:** Use `Right-Click` on a game and select `Edit…` in the context menu to open the Game Edit Window. Afterwards, click the `Download Metadata…` button on the bottom left of the window, select a Metadata extension you have installed and follow the instructions.
 
-![metadata_downloadSingle](images/metadata_downloadSingle.jpg)
+   ![metadata_downloadSingle](images/metadata_downloadSingle.jpg)
 
 ### Edit game metadata
 Metadata can be manually edited for your games in the Game Edit Window by using `Right-Click` and selecting `Edit…`.
@@ -65,7 +65,7 @@ Available variables which can be used in search term string and will be dynamica
 
 | Variable   | Description                            |
 | ---------- | -------------------------------------- |
-| {Name}     | Represents game's name.                |
-| {Platform} | Represents first assign platform name. |
+| `{Name}`     | Represents game's name.                |
+| `{Platform}` | Represents first assign platform name. |
 
 You can configure different aspects to refine your search. Additional settings are available in `Settings` > `Metadata` > `Web image search`

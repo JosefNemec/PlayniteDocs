@@ -49,22 +49,22 @@ Playnite provides some built-in global variables that scripts can use to get mor
 
 2. Right click the game(s), select `Edit…` to open the `Game Edit` window and select the `Scripts` tab on top.
 
-![GameScripts](images/scriptingSupport_ScriptsGame.jpg)
+   ![GameScripts](images/scriptingSupport_ScriptsGame.jpg)
 
 **Global Level:**
 
 1. Go to `Main menu` > `Settings…` > `Scripts`
 
-Scripts of this level can be set to be executed on game and application events.
+   Scripts of this level can be set to be executed on game and application events.
 
-![ScriptsGlobal](images/scriptingSupport_ScriptsGlobal.jpg)
+   ![ScriptsGlobal](images/scriptingSupport_ScriptsGlobal.jpg)
 
 **Emulator Level:**
 
 1. Navigate to `Main menu` > `Library` > `Configure Emulators…` to open the emulators configuration window
 2. Select a configured emulator, select an **Emulator Profile** and then select the `Scripts` tab on the right
 
-![ScriptsEmulator](images/scriptingSupport_ScriptsEmulator.jpg)
+   ![ScriptsEmulator](images/scriptingSupport_ScriptsEmulator.jpg)
 
 ### Testing scripts
 
