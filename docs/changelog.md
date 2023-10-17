@@ -1,5 +1,10 @@
 ### To get automatically notified about SDK changes, you can subscribe to [change tracking issue](https://github.com/JosefNemec/Playnite/issues/1425) on GitHub.
 
+#### 6.10.0
+
+* New
+  * Added `ActiveFullscreenView` to `IMainViewAPI` API.
+
 #### 6.9.0
 
 * New
