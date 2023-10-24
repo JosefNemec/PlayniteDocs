@@ -17,6 +17,12 @@ Another easy way to find if a game is in your library is by searching for your g
 3. Check if the game is present in `Main menu` > `Settings` > `Import exclusion list`
 4. Check that you don't have a filter enabled (via the filter panel) as explained in the previous section which would prevent games from being shown.
 
+### Can I put manually added game into specific "Library"?
+
+You can't, manually added games will always appear under `Playnite` library. Library field specifically refers to a library plugin responsible for a game. Forcing a game into "library" would break things because responsible library plugin would have no idea how to handle that game.
+
+As an alternative you can use `Source` field which is user configurable.
+
 ### I uninstalled a library plugin but its games are still there, why?
 
 Uninstalling a library plugin **does not** remove its games. Playnite never removes automatically removes a game that has already been imported to your library.
