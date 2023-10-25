@@ -49,6 +49,29 @@ After creating an Auto-scan configuration, you can start using it to import emul
 > [!NOTE]
 > Playnite by default groups multi-disc games under one game entry. You can alternatively split or merge these via right-click menu after selecting games on import list. Right-click menu also gives you an ability to change platform and region in bulk.
 
+### Exclude patterns
+
+These specify file patterns used during checksum scan. When a file matches specified pattern(s), its checksum won't be calculated and game will be imported based on other ROM properties (mainly file name). This can significantly speed up scanning process but also make import less accurate.
+
+Multiple patterns can be specified by separating the list with comma, for example: `*.chd,*.iso`
+
+> [!NOTE]
+> `chd` files are excluded by default because there are currently no records for them in emulation database Playnite uses for game matching.
+
+### Excluding files and folders from import completely
+
+Scanner configurations allow to specify list of files and folders to be completely ignored during emulation scan. This list can be configured via `Exclusions` tab. Files and folders can be also added directly from scan results, via right-click menu on scanned games/files.
+
+The list should contain relative file/folder paths, relative to scan folder specified in scanner's settings. For example, if you want to exclude `c:\test\dir\somefile.rom` file that is being detected by a scanner set to scan `c:\test\` folder, you would set exclusion to `dir\somefile.rom`. Or just `dir` to exclude the entire `dir` folder and its files from the scan.
+
+### Exclude online files
+
+Enabling this option will skip scan of files that are stored on cloud storage paths and are not currently downloaded, to prevent files from being downloaded during scanning process. Currently supported platforms are: Google Drive, DropBox and OneDrive.
+
+### Relative path support
+
+If `Import using relative paths` option is enabled, Playnite will try to import emulated games (paths to ROM files specifically) using relative paths. This works by replacing specific parts of the file path with `{PlayniteDir}` or `{EmulatorDir}` variables where possible if ROM location is inside emulator's or Playnite's folder.
+
 ## Tips
 
 ---------------------
