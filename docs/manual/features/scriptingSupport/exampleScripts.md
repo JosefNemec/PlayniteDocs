@@ -11,7 +11,7 @@ Below are some examples of useful scripts you can use:
 Start-Process -FilePath "c:\somepath\someapp.exe" -ArgumentList "-some arguments"
 ```
 
-If you want to start application minimized and application doesn't have native support for it then add `-WindowStyle Minimized` argument to the end of the line.
+If you want to start the application minimized and it doesn't have native support for it, you can add the `-WindowStyle Minimized` argument to the end of the line.
 
 > [!WARNING]
 > Some applications won't work properly (or even start) when started using working directory outside of their application directory. In that case you need to use `-WorkingDirectory` parameter and specify working directory manually.
@@ -48,7 +48,7 @@ else
 
 ### Simulate key presses
 
-It's possible to do with [SendKeys class](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.sendkeys?view=windowsdesktop-6.0#remarks).
+It's possible to do with the [SendKeys class](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.sendkeys?view=windowsdesktop-6.0#remarks).
 
 ```powershell
 # Load the necessary assembly
@@ -83,7 +83,7 @@ if ($game.Source.Name -eq "Steam")
 
 ### Execute actions depending on active Playnite mode
 
-If you want to adjust script's behavior based on Playnite's operation mode (Desktop vs Fullscreen), you can get that information from [API object](xref:Playnite.SDK.IPlayniteAPI):
+If you want to adjust the script's behavior based on the active Playnite's operation mode (Desktop vs Fullscreen), you can get that information from the [API object](xref:Playnite.SDK.IPlayniteAPI):
 
 ```powershell
 if ($PlayniteApi.ApplicationInfo.Mode -eq "Desktop")

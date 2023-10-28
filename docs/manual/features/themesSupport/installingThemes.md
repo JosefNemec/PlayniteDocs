@@ -19,7 +19,7 @@ Alternatively, you can browse and start a theme installation from the [Playnite 
 
 ### Desktop Mode
 
-1. Navigate to `Main menu` > `Settings…` > `Appereance` > `General`
+1. Navigate to `Main menu` > `Settings…` > `Appearance` > `General`
 
 2. Select the theme you want to apply in the `Theme*` dropdown
 

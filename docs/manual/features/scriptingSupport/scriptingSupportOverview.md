@@ -81,4 +81,4 @@ Testing can be done by pressing the `Test Script` button if it's available next 
 Cancelling game startup
 ---------------------
 
-Game startup is automatically cancelled if starting script fails with an exception. If you want to manually cancel game startup, set `$StartingArgs.CancelStartup` to `$true`.
+Game startup is automatically cancelled if the starting script fails with an exception. If you want to manually cancel the game startup, set `$StartingArgs.CancelStartup` to `$true`.

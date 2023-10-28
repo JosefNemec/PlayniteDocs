@@ -42,7 +42,7 @@ To manually add emulators:
 
 After creating a manual **Custom profile** in the previous step, you'll need to create a new emulator and configure its [properties](#emulator-properties).
 
-For this example we'll be using the mGBA emulator:
+For this example we'll be using the [mGBA](https://mgba.io/) emulator:
 
 1. Input a `Name` for the profile and select the `Supported Platform(s)` for the profile. If your platform is not available in the dropwdown, you can add aditional ones in the **Library Manager**, located in `Main menu` > `Library` > `Library Manager…`
 
@@ -57,7 +57,7 @@ For this example we'll be using the mGBA emulator:
 The full `Arguments` line we'll end with is `-f "{ImagePath}"`.
 
 > [!NOTE]
-> The `{ImagePath}` part is a game variable that points to the game image/rom path. Generally most emulators accept this argument but it will depend in the specific emulator. For a detailed explanation of game variables during game start refer to [Game Variables](../../advanced/gameVariables.md)
+> The `{ImagePath}` part is a game variable that points to the game image/rom path. Generally most emulators accept this argument but it will depend in the specific emulator. For a detailed explanation of game variables during game start refer to [Game Variables](../../advanced/gameVariables.md).
 
 4. Configure the `Supported File Types` available in the documentation. Alternatively if you didn't find any, it is suggested to see what file types are available in the file selection dialog in the emulator itself.
 
@@ -66,14 +66,14 @@ The full `Arguments` line we'll end with is `-f "{ImagePath}"`.
 In this example, we end with `gba,zip,7z,elf,agb,mb,rom,bin`
 
 > [!WARNING]
-> The supported file types list must be separated with a comma (,), not contain the period (.) or spaces!
+> The supported file types list must be separated with a comma "`,`", not contain the period "`.`" or spaces!
 
-5. After finishing, click `Save` to save the changes.
+1. After finishing, click `Save` to save the changes.
 
    ![Emulation_CustomProfileConfig](images/Emulation_CustomProfileConfig.jpg)
 
 > [!NOTE]
-> A lot of arcade emulators require ROM file to be passed via command line argument as a file name without complete path or file name without an extension. In that case you can use `{ImageName}` or `{ImageNameNoExt}` (See [game variables](../../advanced/gameVariables.md)), instead of {ImagePath} which contains full path to a ROM file.
+> A lot of arcade emulators require ROM file to be passed through a command line argument as a file name without complete path or file name without an extension. In that case you can use `{ImageName}` or `{ImageNameNoExt}` (See [game variables](../../advanced/gameVariables.md)), instead of {ImagePath} which contains full path to a ROM file.
 
 
 ## Emulators properties

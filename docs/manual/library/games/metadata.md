@@ -35,14 +35,18 @@ To learn how to install metadata extensions to your Playnite installation see an
 ### Updating game metadata
 By default Playnite will automatically obtain and apply to your games when you import them. If you wish to obtain metadata after first importing the games, it can be done in different ways on Desktop Mode:
 
-1. **Bulk/Batch metadata download:** This option allows you to download metadata for multiple games. To do this, navigate to `Main menu` > `Library` > `Download metadata…`
+1. **Bulk/Batch metadata download:**
+   
+   This option allows you to download metadata for multiple games. To do this, navigate to `Main menu` > `Library` > `Download metadata…`
 
    ![metadata_downloadBulk](images/metadata_downloadBulk.jpg)
 
-> [!NOTE]
->For this option, it's possible to select multiple games. For more information, refer to [here](../../gettingStarted/playniteDesktopMode.md#tips).
+   > [!NOTE]
+   >For this option, it's possible to select multiple games. For more information, refer to [here](../../gettingStarted/playniteDesktopMode.md#tips).
 
-2. **Single game metadata download:** Use `Right-Click` on a game and select `Edit…` in the context menu to open the Game Edit Window. Afterwards, click the `Download Metadata…` button on the bottom left of the window, select a Metadata extension you have installed and follow the instructions.
+2. **Single game metadata download:**
+   
+   Use `Right-Click` on a game and select `Edit…` in the context menu to open the Game Edit Window. Afterwards, click the `Download Metadata…` button on the bottom left of the window, select a Metadata extension you have installed and follow the instructions.
 
    ![metadata_downloadSingle](images/metadata_downloadSingle.jpg)
 
@@ -59,9 +63,9 @@ For more information, refer to [here](../libraryManager.md).
 ### Media web image search
 ---------------------
 
-Web image search is available when editing game's metadata via game `Edit` dialogin the `Media` tab to obtain images for covers, background image and icon. The search can be started by clicking the "globe" 🌐 icon next to each game media type.
+Web image search is available when editing a game's metadata under the game `Edit` dialog in the `Media` tab to obtain images for covers, background images and icons. The search can be started by clicking the "globe" 🌐 icon next to each game media type.
 
-Available variables which can be used in search term string and will be dynamically expanded on search:
+These are the available variables which can be used in the search term string and will be dynamically expanded during the search:
 
 | Variable   | Description                            |
 | ---------- | -------------------------------------- |

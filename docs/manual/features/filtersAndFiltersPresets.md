@@ -34,15 +34,15 @@ Filter Presets can be activated from:
 
 1. Filters Panel
 
-2. Explorer Panel
-
-3. Filter Presets button in Top Panel
+2. Filter Presets button in Top Panel
 
    ![FilterPresetsActivate](images/filtersAndFiltersPresets_FilterPresetsActivate.jpg)
 
+3. Explorer Panel
+
 **On Fullscreen Mode:**
 
-Affter creating the filters you want as explained in the previous section, you can click the 💾 button on the **Filter Panel**.
+Affter creating the filters you want as explained in the previous section, you can use the 💾 button on the **Filter Panel**.
 
 ![FilterPresets](images/filtersAndFiltersPresets_FilterPresetsFs.jpg)
 

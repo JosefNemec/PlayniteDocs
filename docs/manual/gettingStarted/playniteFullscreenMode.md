@@ -34,4 +34,4 @@ To use a controller that doesn't support the XInput API, you'll need to utilize 
 - [ds4windows](https://ryochan7.github.io/ds4windows-site/)
 - [XOutput](https://github.com/csutorasa/XOutput)
 
-If you have properly working XInput controller and Playnite is still unable to recognize it, try disabling `Primary controller only` option in Fullscreen mode's input settings.
+If you have a properly working XInput controller and Playnite still cannot recognize it, try disabling the `Primary controller only` option in Fullscreen mode's input settings.
