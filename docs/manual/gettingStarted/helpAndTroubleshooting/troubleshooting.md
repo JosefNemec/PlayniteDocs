@@ -30,15 +30,29 @@ Startup crashes or freezes usually happen because of these reasons:
 ### General network issues
   
 Usually occurs while installing Playnite or downloading addons. It can happen due to multiple reasons:
-  
+
   - Firewall or anti-virus blocking Playnite processes.
   - A [network issue on your ISP's (Internet Service Provider) side](https://github.com/JosefNemec/Playnite/issues/3268).
-  - Some users have reported that restarting their internet modem helped resolve network-related problems.
 
-If you suspect DNS issues, you can switch to using either CloudFlare's or Google's DNS servers:
-
-- [CloudFlare DNS Setup for Windows](https://developers.cloudflare.com/1.1.1.1/setup/windows/)
-- [Google Public DNS Setup for Windows](https://developers.google.com/speed/public-dns/docs/using#windows)
+If you're not sure what's causing the problem, you can try the following:
+1. **Restart Your Modem:**
+   
+   Some users have reported that restarting their internet modem helped resolve network-related problems.
+2. **Switch Networks:**
+   
+   If possible, try using a different internet network to discard if the issue is in the network that is currently being used.
+3. **Use CloudFlare or Google DNS Servers:**
+   
+   Switching to CloudFlare's or Google's DNS servers could fix the problem if it's an issue caused by your internet service provider:
+   - [CloudFlare DNS Setup for Windows](https://developers.cloudflare.com/1.1.1.1/setup/windows/)
+   - [Google Public DNS Setup for Windows](https://developers.google.com/speed/public-dns/docs/using#windows)
+  
+   > [!NOTE]
+   >
+   > DNS (Domain Name System) is similar to the internet's address book and it helps your computer locate and connect to websites. Sometimes, the default DNS system provided by your internet service can cause issues, like blocking certain websites, which can affect Playnite and other programs when connecting to the internet.
+4. **Firewall or Antivirus Settings:**
+   
+   Verify that a Firewall or anti-virus is not blocking Playnite processes.
 
 ### Can't install into specific folder
 
