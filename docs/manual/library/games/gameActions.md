@@ -1,25 +1,25 @@
 Game actions
 =====================
 
-Game actions can be used either to start a game or to launch additional executables not related to game startup, for example configuration/mod utilities.
+Game actions can be used either to start a game or to launch additional executables not related to the game startup, for example, configuration and mod utilities.
 
-Only actions marked as "Play" action are used to start a game, others are available to launch via game menu. If more then one Play action is available, Playnite will show selection dialog on game's startup to specify which action to use to start a game.
+Only actions marked as a "Play" action are used to start a game while others will remain available to launch only through the game menu. In cases where more than one "Play" action is available, Playnite will present a selection dialog during the game's startup to allow you to specify which action to use for launching the game.
 
-`Include library integration play actions` specifies whether integration plugin that imported a specific game, will be asked to handle game startup when the game is being launched.
+The `Include library integration play actions` option specifies whether the integration plugin that imported a specific game should be asked to handle the game startup when it is being launched.
 
-Play actions can be also provided by plugins, see [game actions](../../../tutorials/extensions/gameActions.md) plugin page for more details.
+Play actions can be also provided by plugins, see the [game actions](../../../tutorials/extensions/gameActions.md) plugin page for more details.
 
 Bulk editing
 ---------------------
 
-When editing multiple games at the same time, Playnite won't show currently assigned actions from selected games. What's being assigned while in bulk edit mode will be assigned to all selected games and all existing actions will be removed.
+When you edit multiple games simultaneously, Playnite will not display the currently assigned actions from the selected games. Any changes made while in bulk edit mode will be applied to all the selected games, and all the existing actions will be replaced.
 
 Action properties
 ---------------------
 
 | Property          | Description                                                                                                                                                                                        |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Play action       | If enabled, Playnite will treat this action as Play action. Offering as an option when starting a game (if more than one option is available and counting play time from a started by this action. |
+| Play action       | If enabled, Playnite will treat this action as a Play action. Offering as an option when starting a game (if more than one option is available and counting play time from a started by this action. |
 | Type              | Action startup type.                                                                                                                                                                               |
 | Tracking mode     | Only available for Play actions (`File` and `URL` types) since it affects how [play time detection](#tracking-mode) works.                                                                         |
 | Path              | File path (or URL) to start.                                                                                                                                                                       |
@@ -32,11 +32,11 @@ Action properties
 | -------- | ------------------------------------------------------------------------------------------------------------- |
 | File     | Path is executed as a standard executable file.                                                               |
 | URL      | Path is executed as an URL address.                                                                           |
-| Emulator | Action is started using emulator configuration.                                                               |
+| Emulator | Action is started using an emulator configuration.                                                               |
 | Script   | Script used to start an application. See [game scripts](../../features/scriptingSupport/startupScript.md) page for more details. |
 
 > [!WARNING]
-> Non-play actions that use `Script` startup method will run synchronously on main thead. This means that they will block Playnite's UI until the script is finished running. Therefore make sure you don't use any long running operations in your startup script.
+> Non-play actions that use the `Script` startup method will run synchronously in the main thead. This means that they will block Playnite's UI until the script is finished running. Therefore make sure you don't use any long running operations in your startup script.
 
 ### Emulator settings
 
@@ -51,14 +51,14 @@ Action properties
 | ---------------- | -------------------------------------------------------------------------------------------------------------------- |
 | Default          | Playnite will try to detect and use the best tracking method automatically.                                          |
 | Process          | Playnite will track a game as running as long as original process or any of its child processes are running.         |
-| Original process | Playnite will track a game as running as long as originally started process is running, child processes are ignored. |
-| Folder           | Playnite will track a game as running as long as some process from `Tracking path` folder is running.                |
+| Original process | Playnite will track a game as running as long as the originally started process is running, child processes are ignored. |
+| Folder           | Playnite will track a game as running as long as some process from the `Tracking path` folder is running.                |
 
 Troubleshooting
 ---------------------
 
-In rare cases (depending on an application being started) the application won't start properly unless `Working directory` is not set to application's installation directory. If this happens you need to specify `Working directory` manually to a directory that makes selected application run properly. This is not an issue in Playnite, it's an issue in the started application.
+In rare cases (depending on an application being started) the application won't start properly unless `Working directory` is not set to an application's installation directory. If this happens, you need to specify a `Working directory` manually to a directory that makes the selected application run properly. This is not an issue in Playnite, it's an issue in the started application.
 
 ### Using "Choose on startup" option doesn't show all emulators/profiles
 
-This option uses platform field to select compatible emulators and profiles. If some emulators or profile are not shown on startup, make sure you have the same platforms assigned to a game and specific profiles.
+This option uses the platform field to select compatible emulators and profiles. If certain emulators or profiles are not shown on startup, make sure that you have assigned the same platforms to a game and the specific profiles.

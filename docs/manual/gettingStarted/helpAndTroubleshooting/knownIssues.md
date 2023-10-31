@@ -20,11 +20,11 @@ Custom themes and extensions can impact Playnite's performance and stability. If
 
 **Antivirus Interference:**
 
-Some antivirus apps, like Malwarebytes and Avast, may have false positive detections for Playnite, leading to crashes and odd behavior. Check your antivirus settings.
+Certain antivirus applications, such as Malwarebytes and Avast, may produce false positive detections for Playnite, resulting in crashes and unexpected behavior. It's recommended to review your antivirus settings.
 
 **Multiple GPUs:**
 
-If your system has both integrated and dedicated GPUs, ensure that Playnite is using the dedicated GPU and not the integrated one. [Help here](https://www.digitalcitizen.life/set-which-video-cards-are-used-apps-games-windows-10/) 👈
+If your system has both integrated and dedicated GPUs, ensure that Playnite is using the dedicated GPU and not the integrated one. Help is available [here](https://www.digitalcitizen.life/set-which-video-cards-are-used-apps-games-windows-10/).
 
 **System File Corruption:**
 
@@ -38,7 +38,7 @@ When moving or syncing Playnite to a different system, some services may invalid
 
 **Cannot authenticate with several accounts after Playnite update:**
 
-Using "Clear web cache" in the "Advanced" settings menu usually resolves the issue.
+You can often resolve this issue by using the "Clear web cache" option in the "Advanced" settings menu.
 
 ## Graphical and UI issues
 
@@ -96,7 +96,7 @@ We've implemented workarounds and a "guide" controller button option to address 
 
 ### Google Image search doesn't work
 
-Go to `Settings -> Advanced` and use "Clear web cache" to resolve this issue.
+Go to `Settings` > `Advanced` and use the "Clear web cache" option to resolve this issue.
 
 ### Play Time won't sync
 
@@ -112,7 +112,7 @@ Syncing Playnite's library files via cloud solutions (OneDrive, Google Drive) ca
 
 ### Crash on Startup (Windows 7 Only)
 
-Caused by an issue in Microsoft's update for .NET 4.7. Follow instructions from Microsoft's support page or manually install update KB4074906.
+Caused by an issue in Microsoft's update for .NET 4.7. Follow the instructions from Microsoft's support page or manually install the KB4074906 update.
 
 ### Crash on Startup
 
@@ -120,13 +120,19 @@ Versions of RivaTuner or related apps can cause this issue. Disable GPU accelera
 
 ### Unable to link Accounts, login shows white page
 
-Check your internet connection, antiviruslink and firewall settings to ensure `PlayniteUI.exe` and `CefSharp.BrowserSubprocess.exe` processes are not being blocked.
+1. Check your internet connection, antivirus and firewall settings to ensure `PlayniteUI.exe` and `CefSharp.BrowserSubprocess.exe` processes are not being blocked.
 
-Update Intel drivers to fix this issue. Alternatively, disable hardware acceleration in Playnite (not recommended).
+2. Consider updating your Intel drivers to fix this problem. Alternatively, you can disable hardware acceleration in Playnite, although this is not recommended as that will cause general performance issues in Playnite.
 
 ### AuthorizationManager check failed error at Startup
 
-If you are using portable version of Playnite then Windows may be blocking loading of some script files. Go to Playnites program folder, under `Scripts` subfolder locate script files reporting AuthorizationManager error, open file properties (via right-click on the file) and unblock the files.
+If you are using the portable version of Playnite and encounter the AuthorizationManager error at startup, it may be due to Windows blocking the loading of certain script files. To resolve this, follow these steps:
+
+1. Navigate to Playnite's program folder.
+2. Within the folder, locate the `Scripts` subfolder.
+3. Identify the script files that are reporting the AuthorizationManager error.
+4. Right-click on each of these files and open their properties.
+5. Unblock the files to allow them to run without issue.
 
 ### Extensions menu is grayed Out / PowerShell extensions not loading
 
@@ -134,11 +140,11 @@ On Windows 7 and 8, [installing PowerShell 5](https://www.microsoft.com/en-us/do
 
 ### Settings being Reset or general Data Loss
 
-Users reported these issues when installing Playnite via Chocolatey. Official installation methods are recommended to avoid these problems.
+Users have reported encountering these issues when installing Playnite via Chocolatey. To minimize the risk of these problems, it is recommended to use the official installation methods.
 
 ### WebP Images don't display properly
 
-Install the [WebP Image Extensions](https://www.microsoft.com/en-us/p/webp-image-extensions/9pg2dk419drg) from Microsoft Store.
+Install the [WebP Image Extensions](https://www.microsoft.com/en-us/p/webp-image-extensions/9pg2dk419drg) from the Microsoft Store.
 
 ### Rendering issues while streaming Playnite with Sunshine/Moonlight/Parsec
 
@@ -146,14 +152,18 @@ Incompatibility between streaming software and Playnite's UI library (WPF) can c
 
 ### Playnite Takes Longer to Start After Windows Update
 
-Open Command Prompt as admin and these run commands:
-```
-c:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe update
-c:\Windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update
-```
+If you've noticed that Playnite takes longer to start after a Windows update, you can try the following steps:
+
+1. Open the Command Prompt as an administrator.
+2. Run the following commands:
+
+    ```
+    c:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe update
+    c:\Windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update
+    ```
 
 ### Controller input doesn't work in Fullscreen mode after exiting a game
 
-It's an issue with game/emulator/Windows not returning application focus properly. We already have some workarounds for it in place, plus you can enable option to use "guide" controller button to refocus FS mode, but it's still not 100% reliable and we can't do much more about at this point (as far as we are aware). More aggressive app focusing could cause issues elsewhere.
+If you're experiencing controller input problems in fullscreen mode after exiting a game, it's likely due to issues with the game, emulator, or Windows not properly returning application focus. Playnite has implemented some workarounds for this problem, and you can also enable the option to use the "Guide" controller button to refocus fullscreen mode. However, it's important to note that this solution may not be 100% reliable, and further improvements are limited due to potential issues with aggressive application focusing in other areas.
 
-Switching from a game and back (using alt-tab for example), has been known to increase likelihood of the issue appearing once the game eventually stops running, for some reason.
+Additionally, switching from a game and back (e.g., using Alt-Tab) may increase the likelihood of the issue appearing once the game eventually stops running, for reasons that are not entirely clear.

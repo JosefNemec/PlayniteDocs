@@ -13,7 +13,7 @@ To access Playnite's settings:
    ![Accessing Playnite Settings](images/gettingStarted_acessSettings.png)
 
 ### Fullscreen Mode
-1. Press the `Start` button in your controller
+1. Press the `Select`/`Back` button in your controller
 2. Navigate to `Settings`
 
 > [!NOTE]

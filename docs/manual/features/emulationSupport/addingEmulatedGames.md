@@ -51,7 +51,10 @@ After creating an Auto-scan configuration, you can start using it to import emul
 
 ### Exclude patterns
 
-These specify file patterns used during checksum scan. When a file matches specified pattern(s), its checksum won't be calculated and game will be imported based on other ROM properties (mainly file name). This can significantly speed up scanning process but also make import less accurate.
+Exclude patterns are used during the checksum scan. When a file matches any of the specified patterns, its checksum won't be calculated, and the game will be imported based on other ROM properties, mainly the file name. While this approach can significantly speed up the scanning process, it will also result in less accurate imports.
+
+> [!NOTE]
+> A checksum serves as a **unique** identifier for a game file. Playnite uses this identifier to check if the file is available in Playnite's emulation database and retrieve information about it, like game [metadata](../../library/games/metadata.md).
 
 Multiple patterns can be specified by separating the list with comma, for example: `*.chd,*.iso`
 
@@ -60,17 +63,22 @@ Multiple patterns can be specified by separating the list with comma, for exampl
 
 ### Excluding files and folders from import completely
 
-Scanner configurations allow to specify list of files and folders to be completely ignored during emulation scan. This list can be configured via `Exclusions` tab. Files and folders can be also added directly from scan results, via right-click menu on scanned games/files.
+Scanner configurations allow to specify a list of files and folders to be completely ignored during emulation scan. This list can be configured through the  `Exclusions` tab. Files and folders can be also added directly from scan results, via right-click menu on scanned games/files.
 
-The list should contain relative file/folder paths, relative to scan folder specified in scanner's settings. For example, if you want to exclude `c:\test\dir\somefile.rom` file that is being detected by a scanner set to scan `c:\test\` folder, you would set exclusion to `dir\somefile.rom`. Or just `dir` to exclude the entire `dir` folder and its files from the scan.
+The exclusion list should consist of relative file and folder paths, which are relative to the scan folder specified in the scanner's settings. For example, if you want to exclude a file like `c:\test\dir\somefile.rom` that is detected by a scanner set to scan the `c:\test\` folder, you would set the exclusion to `dir\somefile.rom`. Alternatively, you can use `dir` to exclude the entire `dir` folder and all its contents from the scan.
 
 ### Exclude online files
 
-Enabling this option will skip scan of files that are stored on cloud storage paths and are not currently downloaded, to prevent files from being downloaded during scanning process. Currently supported platforms are: Google Drive, DropBox and OneDrive.
+Enabling this option will skip the scanning of files stored in cloud storage paths that are not currently downloaded. This helps prevent files from being downloaded during the scanning process.
+
+The currently supported cloud storage platforms include:
+- Google Drive
+- Dropbox
+- OneDrive
 
 ### Relative path support
 
-If `Import using relative paths` option is enabled, Playnite will try to import emulated games (paths to ROM files specifically) using relative paths. This works by replacing specific parts of the file path with `{PlayniteDir}` or `{EmulatorDir}` variables where possible if ROM location is inside emulator's or Playnite's folder.
+When the `Import using relative paths` option is enabled, Playnite attempts to import emulated games, specifically the paths to ROM files, using relative paths. This is achieved by replacing specific parts of the file path with `{PlayniteDir}` or `{EmulatorDir}` [variables](../../advanced/gameVariables.md) where applicable, provided that the ROM location is within the emulator's or Playnite's folder.
 
 ## Tips
 
