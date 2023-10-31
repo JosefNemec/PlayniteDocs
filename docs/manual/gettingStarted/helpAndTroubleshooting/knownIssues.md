@@ -162,8 +162,6 @@ If you've noticed that Playnite takes longer to start after a Windows update, yo
     c:\Windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update
     ```
 
-These commands may help to reduce Playnite's startup time.
-
 ### Controller input doesn't work in Fullscreen mode after exiting a game
 
 If you're experiencing controller input problems in fullscreen mode after exiting a game, it's likely due to issues with the game, emulator, or Windows not properly returning application focus. Playnite has implemented some workarounds for this problem, and you can also enable the option to use the "Guide" controller button to refocus fullscreen mode. However, it's important to note that this solution may not be 100% reliable, and further improvements are limited due to potential issues with aggressive application focusing in other areas.
