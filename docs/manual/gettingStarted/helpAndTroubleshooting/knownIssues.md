@@ -162,7 +162,7 @@ If you've noticed that Playnite takes longer to start after a Windows update, yo
     c:\Windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update
     ```
 
-These commands may help to improve Playnite's performance.
+These commands may help to reduce Playnite's startup time.
 
 ### Controller input doesn't work in Fullscreen mode after exiting a game
 
