@@ -109,9 +109,12 @@ Portable editions have settings stored in `config.json` directly in Playnite's f
 
 ### What is Safe Mode?
 
-Safe Mode starts Playnite with all 3rd party extensions disabled and using only default theme.
+Safe Mode starts Playnite with all third-party extensions disabled and using only default theme.
 
-You can start safe by opening going to the `Main menu` -> `Help` -> *Restart in Safe* mode or by opening the  `Safe Mode.bat` file from Playnite's installation directory or by using `--safestartup` argument when starting Playnite's executable.
+To start Safe Mode, you can:
+- Navigate to `Main menu` > `Help` > `Restart in Safe Mode`.
+- Open the `Safe Mode.bat` file from Playnite's installation directory.
+- Use the `--safestartup` [application argument](../../advanced/cmdlineArguments.md) when starting Playnite's executable.
 
 ### How do I start additional application(s) before game starts and kill it after game exits?
 
@@ -121,11 +124,20 @@ See [this page](../../features/scriptingSupport/exampleScripts.md#starting-addit
 
 Use the "funnel" filter button next to the search field to open filter panel, select `Hidden` filter, right-click on hidden games and choose the `Show in Library` option.
 
-### How do I close (emulated) game with a controller?
+### How can I close a game or emulator with a controller?
 
-Playnite has no built-in functionality for it right now.
+Currently Playnite does not offer native functionality for closing games or emulators using a controller.
 
-If a game (or an emulator) doesn't have a way to ecoverxit via some menu, you will need to use a 3rd party app that can simulate `ALT+F4` with a controller button.  Some example of apps you can use include [JoyXoff]([JoyXoff](https://joyxoff.com/en/)), [AntiMicroX](https://antimicrox.github.io/), [Controller Companion](http://controllercompanion.com/) and [reWASD](https://www.rewasd.com/).
+However, if a game or emulator doesn't have a way to close it via some menu, you can achieve this by using a third-party application that can simulate the `ALT+F4` key combination with a controller.
+
+Here are some examples of applications that can help you accomplish this task:
+
+- [JoyXoff](https://joyxoff.com/en/)
+- [AntiMicroX](https://antimicrox.github.io/)
+- [Controller Companion](http://controllercompanion.com/)
+- [reWASD](https://www.rewasd.com/)
+
+Additionally, the [PlayState](https://playnite.link/addons.html#PlayState) Playnite extension provides limited keyboard simulation functionality for controllers. However, it is recommended to review the extension functionality and settings to prevent unwanted functionality from being added to Playnite when installing it.
 
 ### How do I backup Playnite library and move it to another PC?
 
