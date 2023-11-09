@@ -134,6 +134,8 @@ Here are some examples of applications that can help you accomplish this task:
 - [Controller Companion](http://controllercompanion.com/)
 - [reWASD](https://www.rewasd.com/)
 
+Additionally, the [PlayState](https://playnite.link/addons.html#PlayState) Playnite extension provides limited keyboard simulation functionality for controllers. However, it is recommended to review the extension functionality and settings to prevent unwanted functionality from being added to Playnite when installing it.
+
 ### How do I backup Playnite library and move it to another PC?
 
 Playnite 10 introduced built-in options to backup and restore Playnite data accessible from the Library menu.
