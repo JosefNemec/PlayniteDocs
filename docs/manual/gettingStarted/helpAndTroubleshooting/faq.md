@@ -109,9 +109,12 @@ Portable editions have settings stored in `config.json` directly in Playnite's f
 
 ### What is Safe Mode?
 
-Safe Mode starts Playnite with all 3rd party extensions disabled and using only default theme.
+Safe Mode starts Playnite with all third-party extensions disabled and using only default theme.
 
-You can start safe by opening going to the `Main menu` -> `Help` -> *Restart in Safe* mode or by opening the  `Safe Mode.bat` file from Playnite's installation directory or by using `--safestartup` argument when starting Playnite's executable.
+To start Safe Mode, you can:
+- Navigate to `Main menu` > `Help` > `Restart in Safe Mode`.
+- Open the `Safe Mode.bat` file from Playnite's installation directory.
+- Use the `--safestartup` [application argument](../../advanced/cmdlineArguments.md) when starting Playnite's executable.
 
 ### How do I start additional application(s) before game starts and kill it after game exits?
 
