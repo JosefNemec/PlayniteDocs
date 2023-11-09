@@ -34,7 +34,7 @@ The arguments in the profile configuration is `-f "{ImagePath}"` but since we ca
 Now that we have our arguments, we can create our full command line in this format:
 
 ```powershell
-Start-Process -Filepath "<EmulatorPath>" -ArgumentList '<Arguments>' -WorkingDirectory "<EmulatorDirectory>" 
+Start-Process -Filepath "<EmulatorPath>" -ArgumentList "<Arguments>" -WorkingDirectory "<EmulatorDirectory>" 
 ```
 
 Using the information we obtained, this will be the correct command line:
