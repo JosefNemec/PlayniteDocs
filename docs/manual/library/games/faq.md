@@ -52,3 +52,7 @@ For more information, refer to [here](metadata.md#updating-game-metadata).
 Additionally, it may be possible that your currently installed metadata plugins from which Playnite obtains this data from may not be able to provide data for all metadata fields for your games, like icons or other data. In such case, you can try installing and configuring additional metadata plugins.
 
 If you are wondering what metadata plugins you should install, please refer to [here](../../features/extensionsSupport/faq.md#what-are-the-best-extensions-that-i-should-install).
+
+### Filter preset selection at the top bar in Fullscreen mode doesn't show icons, why?
+
+Playnite doesn't support icons/logos for [filter presets](../../features/filtersAndFiltersPresets.md). If you see a screenshot from custom theme that displays images as presets (for example for individual platforms), it's because that specific theme has an explicit support for it, usually done by replacing preset text with an image of the same name from theme folder. You need to consult theme's documentation for instructions how to properly set this up.
