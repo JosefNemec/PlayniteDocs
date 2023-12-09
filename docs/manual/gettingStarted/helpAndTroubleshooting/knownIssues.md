@@ -167,3 +167,7 @@ If you've noticed that Playnite takes longer to start after a Windows update, yo
 If you're experiencing controller input problems in fullscreen mode after exiting a game, it's likely due to issues with the game, emulator, or Windows not properly returning application focus. Playnite has implemented some workarounds for this problem, and you can also enable the option to use the "Guide" controller button to refocus fullscreen mode. However, it's important to note that this solution may not be 100% reliable, and further improvements are limited due to potential issues with aggressive application focusing in other areas.
 
 Additionally, switching from a game and back (e.g., using Alt-Tab) may increase the likelihood of the issue appearing once the game eventually stops running, for reasons that are not entirely clear.
+
+### Web image search doesn't show any results
+
+Can be fixed by clearing web cache in advanced application settings.
