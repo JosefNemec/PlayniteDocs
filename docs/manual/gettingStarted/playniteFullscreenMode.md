@@ -24,14 +24,8 @@ To open the game view, select a game and press the **Details button**, which is 
 
 ### Controller Support
 
-Controller support is available exclusively in Fullscreen Mode, currently compatible with `XInput` controllers. General `DirectInput` support is planned to be added in [Playnite 11](https://github.com/JosefNemec/Playnite/issues/684).
+Controller support is currently available exclusively in Fullscreen mode. Playnite uses [SDL](https://www.libsdl.org/) library to process controller inputs. SDL supports wide range of both XInput and DirectInput joysticks and controllers. Playnite uses [community sourced database](https://github.com/gabomdq/SDL_GameControllerDB) which maps these devices to "gamepad layout" and that gamepad layout is how Playnite interprets inputs. Full button binding customization is currently not available and will be supported in Playnite 11.
 
-Common controllers that support `XInput` include Xbox controllers. Controllers using `DInput`, such as PlayStation and Nintendo controllers, are not supported. Most generic controllers also fall under `DInput`.
+If your controller is not recognized by Playnite, it's either because it's not detected/supported by SDL or there are no gamepad mappings for it available. For the latter, use one of the [mapping tools](https://github.com/gabomdq/SDL_GameControllerDB#mapping-tools) to check if your controller is working and maps to a "gamepad layout" and additionally create new mappings for it (and submit it to the same game controller database). You can then manually add new mapping into `gamecontrollerdb.txt` file found in Playnite's install folder.
 
-To use a controller that doesn't support the XInput API, you'll need to utilize a `DirectInput` to `XInput` wrapper. Some available wrappers include:
-
-- [x360ce](https://www.x360ce.com/)
-- [ds4windows](https://ryochan7.github.io/ds4windows-site/)
-- [XOutput](https://github.com/csutorasa/XOutput)
-
-If you have a properly working XInput controller and Playnite still cannot recognize it, try disabling the `Primary controller only` option in Fullscreen mode's input settings.
+If your controller is not recognized by mapping software at all, it means that SDL is not supporting it at all and you need to report the issue to SDL developers. Lastly, make sure that controller support is enabled in Fullscreen mode's input settings and that specific controllers are not disabled on the same settings page.

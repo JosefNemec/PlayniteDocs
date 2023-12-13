@@ -54,6 +54,14 @@ Action properties
 | Original process | Playnite will track a game as running as long as the originally started process is running, child processes are ignored. |
 | Folder           | Playnite will track a game as running as long as some process from the `Tracking path` folder is running.                |
 
+### Folder tracking options
+
+| Property | Description |
+|  --- | --- |
+| Tracking path          | As long as processes from this folder are running a game is considered to be running. |
+| Initial tracking delay | Time in milliseconds before tracking is started after a game is started. Use it to introduce delay in tracking if a game has non-standard startup procedure (or external launcher) to make sure tracking starts only after the game is actually running. |
+| Tracking frequency     | Frequency in milliseconds specifying how ofter to check whether a game is still running after tracking is already in progress. |
+
 Troubleshooting
 ---------------------
 

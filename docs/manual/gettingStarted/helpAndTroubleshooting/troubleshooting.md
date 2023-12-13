@@ -88,6 +88,6 @@ You may encounter this warning under various circumstances, including:
 
 ### My controller is not working
 
-Playnite is currently not compatible with all types of controllers. For more information, refer to [controller support](../playniteFullscreenMode.md#controller-support).
+See [controller support](../playniteFullscreenMode.md#controller-support) section from Fullscreen mode manual for information about supported controllers.
 
-Additionallly, certain software can affect how your PC recognizes your controller by converting it to a secondary controller in your system, making Playnite be unable to detect it. To fix this, press `Select` or click the `Playnite` icon to open the menu then navigate to `Settings` > `Input` and verify that the `Primary Controller` option is disabled.
+Additionally, make sure that controller support is enabled in Fullscreen mode's input settings and that specific controllers are not disabled on the same settings page.

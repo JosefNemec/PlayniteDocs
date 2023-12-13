@@ -88,12 +88,6 @@ This usually happens when program files are missing, damaged, or blocked. You ca
 
 ## Specific functional issues
 
-### Input doesn't work in Fullscreen Mode after exiting a game
-
-This issue occurs due to game/emulator/Windows not returning application focus to Playnite correctly. While some workarounds exist, they may not be 100% reliable. Avoid switching between a game and other applications to minimize the problem.
-
-We've implemented workarounds and a "guide" controller button option to address this issue, but it's not always 100% reliable. Further improvements could potentially introduce other problems.
-
 ### Google Image search doesn't work
 
 Go to `Settings` > `Advanced` and use the "Clear web cache" option to resolve this issue.

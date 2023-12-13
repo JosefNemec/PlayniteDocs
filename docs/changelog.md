@@ -1,5 +1,14 @@
 ### To get automatically notified about SDK changes, you can subscribe to [change tracking issue](https://github.com/JosefNemec/Playnite/issues/1425) on GitHub.
 
+#### 6.11.0
+
+* New
+  * Added support for new play action tracking options.
+  * Added support for software tools to execute scripts.
+  * [M	source/PlayniteSDK/Models/AppSoftware.cs](https://playnite.link/sdkchangelog/6.9.0-6.11.0/PlayniteSDK_Models_AppSoftware.cs.html)  
+  * [M	source/PlayniteSDK/Models/GameAction.cs](https://playnite.link/sdkchangelog/6.9.0-6.11.0/PlayniteSDK_Models_GameAction.cs.html)  
+  * [M	source/PlayniteSDK/Plugins/Actions.cs](https://playnite.link/sdkchangelog/6.9.0-6.11.0/PlayniteSDK_Plugins_Actions.cs.html)  
+
 #### 6.10.0
 
 * New

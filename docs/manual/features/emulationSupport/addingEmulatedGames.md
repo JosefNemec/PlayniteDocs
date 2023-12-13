@@ -63,9 +63,16 @@ Multiple patterns can be specified by separating the list with comma, for exampl
 
 ### Excluding files and folders from import completely
 
-Scanner configurations allow to specify a list of files and folders to be completely ignored during emulation scan. This list can be configured through the  `Exclusions` tab. Files and folders can be also added directly from scan results, via right-click menu on scanned games/files.
+Scanner configurations allow to specify a list of files and folders to be completely ignored during emulation scan. This list can be configured through the `Exclusions` tab. Files and folders can be also added directly from scan results, via right-click menu on scanned games/files.
 
-The exclusion list should consist of relative file and folder paths, which are relative to the scan folder specified in the scanner's settings. For example, if you want to exclude a file like `c:\test\dir\somefile.rom` that is detected by a scanner set to scan the `c:\test\` folder, you would set the exclusion to `dir\somefile.rom`. Alternatively, you can use `dir` to exclude the entire `dir` folder and all its contents from the scan.
+The exclusion list should consist of relative file and folder paths, which are relative to the scan folder specified in the scanner's settings. These exclusion can be configured in multiple modes:
+
+| Mode | Examples | Prefix | Description |
+|---|---|---|---|
+| Absolute | `test.file`<br>`folder\other.file` | none | This will match files explicitly to the scan folder. If scan folder is `c:\games\`, then `c:\games\test.file` and `c:\games\folder\other.file` files will be excluded. |
+| Relative | `>test.file`<br>`>folder\other.file` | > | This will match files on any sub level to the scan folder. If scan folder is `c:\games\`, then same files from "Absolute" example will be excluded in addition to files like `c:\games\subfolder\test.file` and `c:\games\subfolder\folder\other.file`.  |
+| Regex matching | `?test.file$`<br>`?folder\\other.file$` | ? | This mode uses regular expression to match file exclusion rooted to the scan folder. If scan folder is `c:\games\`, then files matching `c:\\games\\test.file$` and `c:\\games\\folder\\other.file$` expressions will be excluded. |
+| Relative regex | `>?test.file` | >? | Combined relative and regex mode. It will exclude files matching specified regular expression but not rooted to the scan folder. |
 
 ### Exclude online files
 
