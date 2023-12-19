@@ -14,7 +14,7 @@ Use [WebViews](xref:Playnite.SDK.IPlayniteAPI.WebViews) API to create new web vi
 Notes
 ---------------------
 
-Web view data are isolated for each extension. This means that cache, cookies and other web view data are not shared between extensions and separate instance is kept for each extension individually. This also means that methods like cookie deletion also only affect specific extension which calls those methods.
+Web view data are currently not isolated per extension. This means that cache, cookies and other web view data are shared between all extensions and Playnite itself. This also means that methods like cookie deletion affect all extensions. Per extension data isolation will be added in Playnite 11.
 
 Use can use `F12` key to open standard Chromium developer tools while normal web view window is opened.
 
