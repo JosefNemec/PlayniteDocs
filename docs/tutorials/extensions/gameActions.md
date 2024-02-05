@@ -34,7 +34,7 @@ public override IEnumerable<PlayController> GetPlayActions(GetPlayActionsArgs ar
 }
 ```
 
-Install an uninstall actions
+Install and uninstall actions
 ---------------------
 
 Similar to how Play controllers are implemented, override `GetInstallActions` and/or `GetUninstallActions` methods. Install controllers should provide [GameInstallationData](xref:Playnite.SDK.Plugins.GameInstallationData) when calling `InvokeOnInstalled` for installation status to be set properly.
