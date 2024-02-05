@@ -14,7 +14,7 @@ Play actions
 
 Play actions control how a game is started and are also responsible for play time tracking. To implement play action handling, override `GetPlayActions` method from your plugin and return [PlayController](xref:Playnite.SDK.Plugins.PlayController) object implementing game startup functionality.
 
-In you play controller: call `InvokeOnStarted` after the game is started and `InvokeOnStopped` when the game stops running. `InvokeOnStopped` should provide information about last game session, mainly how long the session lasted, for Playnite to record play time properly.
+In your play controller: call `InvokeOnStarted` after the game is started and `InvokeOnStopped` when the game stops running. `InvokeOnStopped` should provide information about last game session, mainly how long the session lasted, for Playnite to record play time properly.
 
 "Automatic" play actions
 ---------------------
