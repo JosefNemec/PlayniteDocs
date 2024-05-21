@@ -11,13 +11,15 @@ Startup crashes or freezes usually happen because of these reasons:
 
 1) Bug in Playnite itself. This is indicated by Playnite showing crash dialog with an ability to send crash report. If this happens, send crash report and open new [bug report](https://github.com/JosefNemec/Playnite/issues).
 
-2) Caused by a third party, typically by:
+2) Corrupred program file can cause startup issues, reinstalling Playnite fixes it. Reinstall doesn't affect user data files (game library data).
+
+3) Caused by a third party, typically by:
 
 - **Extension or theme:**
   
   In this case Playnite tries to detect if a crash was caused by an add-on and will show appropriate error about it, but this is always not possible. You can test if an add-on is causing crash by starting Playnite in safe mode (from Help menu or via `Safe Mode.bat` from Playnite's installation folder), or by manually disabling extensions (from add-ons menu) until the crash goes away.
 
-- **3rd party application or system malfunction:**
+- **3rd party application:**
   
   This is usually true for crashes that just close Playnite without any crash dialog or error message whatsoever. Usually caused by applications that inject overlays or interact with GPU accelerated apps (and games) in some other manner. Also sometimes caused by anti-virus applications falsely flagging Playnite and deleting/blocking its files.
 
@@ -26,6 +28,10 @@ Startup crashes or freezes usually happen because of these reasons:
   - AVG
   - Malwarebytes
   - Nahimic service
+
+4) Broken .NET Framework installation. Can be repaired by downloading the latest runtime installer from [this website](https://dotnet.microsoft.com/en-us/download/dotnet-framework).
+5) Broken Windows installation. Can be checked and fixed by running [System File Checker tool](https://support.microsoft.com/en-us/windows/using-system-file-checker-in-windows-365e0031-36b1-6031-f804-8fd86e0ef4ca).
+6) Broken Windows installation #2. There've been reports of customized/debloated Windows editions having issues running Playnite, for example Tiny or Atlas versions. Solution is to not use these homebrew editions and using only official Windows installations.
 
 ### General network issues
   
