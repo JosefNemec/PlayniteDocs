@@ -43,6 +43,13 @@ nuget restore -SolutionDirectory . -Verbosity normal
     <TargetFramework>net4.6.2</TargetFramework>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <DefineConstants>DEBUG;NET462;TRACE</DefineConstants>
+        <DebugType>portable</DebugType>
+  </PropertyGroup> 
+  <ItemGroup>
+    <ApplicationDefinition Remove="App.xaml" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="PlayniteSDK" Version="6.2.0" />
   </ItemGroup>
@@ -63,5 +70,101 @@ nuget restore -SolutionDirectory . -Verbosity normal
 8. In VSCode, press `ctrl+shift+P`, type `Tasks: Run Task > publish` and press `Enter`
 9. Output folder should be in `.\bin\Debug\net4.6.2\publish`. Add the full path (including drive letter) to the external extensions list in Playnite, and restart it.
 10. In Playnite, you should see your extension running in the Add-Ons window.
+
+As soon as build VSCode debugger are not support x86 application debug and execution, but Playnite x86 officially only, You have to prepare x64 version of Playnite yourself to be able to debug. To do it you have:
+1. Install Windows PowerShell version 7.0.
+2. Open Powershell version 7.0 and in PlayniteSources call ```.\build\build.ps1 Debug x64 c:\playnite``` this will build binaries and move to c:\playnite. Please be aware that it may affect already existed Playnite installation at this location.
+3. You have to download and replace x86 to x64 versions of SDL2.dll and SDL2_mixer.dll. Obtain it from official releases https://github.com/libsdl-org/SDL/releases and https://github.com/libsdl-org/SDL_mixer/releases
+4. Tune you .vscode/tasks.json:
+
+```json
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build debug",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;ForceNoAlign"
+            ],
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build release",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;ForceNoAlign",
+                "-c",
+                "Release"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "pack",
+            "command": "C:\\Playnite\\Toolbox.exe",
+            "type": "process",
+            "args": [
+                "pack",
+                "${workspaceFolder}\\bin\\Release\\net4.6.2",
+                "${workspaceFolder}\\bin\\Package"
+            ],
+            "problemMatcher": "$msCompile",
+            "dependsOn": [
+                "build release"
+            ]
+        }
+    ]
+}
+```
+
+and .vscode/launch.json:
+```json
+{
+    "configurations": [
+        {
+            "name": "Debug PlayniteSounds Desktop",
+            "type": "clr",
+            "request": "launch",
+            "preLaunchTask": "build debug",
+            "program": "C:\\Playnite\\Playnite.DesktopApp.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "logging": {
+                "programOutput": true,
+                "moduleLoad": false,
+                "processExit": false
+            }
+        },
+        {
+            "name": "Debug PlayniteSounds Fullscreen",
+            "type": "clr",
+            "request": "launch",
+            "preLaunchTask": "build debug",
+            "program": "C:\\Playnite\\Playnite.FullscreenApp.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "logging": {
+                "programOutput": true,
+                "moduleLoad": false,
+                "processExit": false
+            }
+        }
+    ]
+}
+```
 
 You can use something like [XAML Studio](https://aka.ms/xamlstudio) to edit single XAML files graphically.
