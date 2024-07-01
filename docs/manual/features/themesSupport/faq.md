@@ -16,7 +16,7 @@ Custom themes are safe to use and don't pose any security risks.
 
 ### What should I do if a custom theme is causing issues or errors in Playnite?
 
-If a custom theme is causing problems in Playnite, you can switch back to the default theme to resolve the issue. If the issue persists, refer to [General performance issues and crashes](../../gettingStarted/helpAndTroubleshooting/knownIssues.md#general-performance-issues-and-crashes).
+If a custom theme is causing problems in Playnite, you can switch back to the default theme to resolve the issue. If the issue persists, refer to [General performance issues and crashes](../../gettingStarted/helpAndTroubleshooting/troubleshooting.md#playnite-is-crashing).
 
 Additionally, you can report any issues you encounter to the theme's creator or the Playnite community for assistance.
 

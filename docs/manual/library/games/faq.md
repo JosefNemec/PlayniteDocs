@@ -56,3 +56,7 @@ If you are wondering what metadata plugins you should install, please refer to [
 ### Filter preset selection at the top bar in Fullscreen mode doesn't show icons, why?
 
 Playnite doesn't support icons/logos for [filter presets](../../features/filtersAndFiltersPresets.md). If you see a screenshot from custom theme that displays images as presets (for example for individual platforms), it's because that specific theme has an explicit support for it, usually done by replacing preset text with an image of the same name from theme folder. You need to consult theme's documentation for instructions how to properly set this up.
+
+### Play Time won't sync
+
+Play time sync is supported by specific library integration plugins. Set `Import playtime of games in library` option to `Always`  in `Settings` > `General` to force sync from remote accounts. For more information see [here](../../gettingStarted/configuringPlaynite.md#importing-playtime-from-third-party-libraries-and-services).

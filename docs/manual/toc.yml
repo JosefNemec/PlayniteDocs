@@ -18,9 +18,6 @@
           href: library/games/faq.md
         - name: Troubleshooting
           href: gettingStarted/helpAndTroubleshooting/troubleshooting.md
-        - name: Known Issues
-          href: gettingStarted/helpAndTroubleshooting/knownIssues.md
-
 - name: Features
   href: features/featuresOverview.md
   items:
