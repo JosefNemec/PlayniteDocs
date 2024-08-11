@@ -180,6 +180,8 @@ This usually happens when program files are missing, damaged, or blocked. You ca
 
 Go to `Settings` > `Advanced` and use the "Clear web cache" option to resolve this issue.
 
+If the issue persists after clearing the cache, then your network was blocked by Google from image search website (usually by anti-bot measures) preventing Playnite from getting search results. There is no solution for this other than to wait for block to be lifted or use something like VPN to appear under different IP to Google.
+
 ### Can't drag and drop files to Playnite
 
 Running Playnite with elevated user rights (as Administrator) can prevent drag-and-drop functionality. Avoid running Playnite as an admin or run the source of the drag operation as an admin.
