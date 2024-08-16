@@ -45,6 +45,9 @@ Option #1 doesn't require installation of any additional applications and themes
 
 Option #2 requires installation of [Visual Studio IDE](https://visualstudio.microsoft.com/), Community edition is free to download and includes [Blend](https://docs.microsoft.com/en-us/visualstudio/designers/creating-a-ui-by-using-blend-for-visual-studio?view=vs-2019) editor. This approach takes some time to set up, but offers all advantages that manual editing lacks, like live preview, autocompletion of XAML properties, visual editor etc. 
 
+> [!WARNING] 
+> The latest Visual Studio **2022** is currently not supported (live previews will not work)! Use [2019 or 2017 version](https://download.visualstudio.microsoft.com/download/pr/93f24e82-778c-46ae-92f9-8d3010ecd011/a5da04d78b1f94ab145a365733476df7a1ec6219fa17f09c7e2f3c7cd74d9c9e/vs_Community.exe) instead.
+
 **Using Blend editor is recommended option.**
 
 > [!WARNING] 
