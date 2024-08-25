@@ -8,6 +8,9 @@ Playnite can be extended via extensions implemented via scripts and plugins:
 - Scripts: [PowerShell](https://docs.microsoft.com/en-us/powershell/) scripts are supported.
 - Plugins: Any .NET Framework compatible language can be used (`C#`, `VB.NET`, `F#` and others).
 
+> [!WARNING] 
+> Support for PowerShell extensions is getting removed in next major Playnite release, version 11. We strongly recommend using .NET plugins since porting PowerShell script code to C# would be considerable amount of effort.
+
 Extensions fall under several categories of extended functionality that are available based on selected implementation:
 
 | Functionality | Scripts | Plugins |
