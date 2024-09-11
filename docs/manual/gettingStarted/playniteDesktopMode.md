@@ -67,7 +67,7 @@ Here are some keyboard shortcuts available in Desktop Mode:
 | `F1`     | Open "About" dialog                                                             |
 | `CTRL-F` | Focus on the main search box; press `ESC` or `Enter` to exit it                 |
 | `Insert` | Add a new custom game                                                           |
-| `CTRL-E` | Open a wizard for emulated games                                                |
+| `CTRL-Q` | Open a wizard for emulated games                                                |
 | `CTRL-T` | Access platforms and emulators settings                                         |
 | `ALT-Q`  | Exit Playnite (ignores "Close" action settings)                                 |
 
