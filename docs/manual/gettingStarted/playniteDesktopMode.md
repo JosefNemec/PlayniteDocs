@@ -59,7 +59,7 @@ Here are some keyboard shortcuts available in Desktop Mode:
 | Shortcut | Action                                                                          |
 | -------- | ------------------------------------------------------------------------------- |
 | `F11`    | Open Fullscreen mode                                                            |
-| `CTRL-F` | Toggle **Filter panel** visibility                                              |
+| `CTRL-G` | Toggle **Filter panel** visibility                                              |
 | `CTRL-E` | Toggle **Explorer panel** visibility                                            |
 | `CTRL-D` | Open **Metadata download** window                                               |
 | `F5`     | Refresh game library (also downloads a fresh game list from external libraries) |
