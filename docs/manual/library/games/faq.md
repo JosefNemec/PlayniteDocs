@@ -60,3 +60,12 @@ Playnite doesn't support icons/logos for [filter presets](../../features/filters
 ### Play Time won't sync
 
 Play time sync is supported by specific library integration plugins. Set `Import playtime of games in library` option to `Always`  in `Settings` > `General` to force sync from remote accounts. For more information see [here](../../gettingStarted/configuringPlaynite.md#importing-playtime-from-third-party-libraries-and-services).
+
+### Uninstalled games still show up as installed
+
+Playnite automatically changes install state to uninstalled only if:
+
+- you start uninstallation from Playnite
+- you have import of uninstalled games enabled in specific integration's settings and you update the library
+
+Installation state can be also manually change on installation tab while editing a game.
