@@ -10,7 +10,7 @@ Creating new extensions
 
 ### Themes
 
-```cmd
+```text
 Toolbox.exe new <themetype> <themename>
 ```
 
@@ -22,13 +22,13 @@ Toolbox.exe new <themetype> <themename>
 
 #### Example
 
-```cmd
+```text
 Toolbox.exe new desktoptheme "New Desktop Theme"
 ```
 
 ### Scripts
 
-```cmd
+```text
 Toolbox.exe new <scripttype> <scriptname> <targetfolder>
 ```
 
@@ -41,13 +41,13 @@ Toolbox.exe new <scripttype> <scriptname> <targetfolder>
 
 #### Example
 
-```cmd
+```text
 Toolbox.exe new PowerShellScript "Testing Script" "d:\somefolder"
 ```
 
 ### Plugins
 
-```cmd
+```text
 Toolbox.exe new <plugintype> <pluginname> <targetfolder>
 ```
 
@@ -62,14 +62,14 @@ Toolbox.exe new <plugintype> <pluginname> <targetfolder>
 
 #### Example
 
-```cmd
+```text
 Toolbox.exe new MetadataPlugin "GameDatabase metadata provider" "d:\somefolder"
 ```
 
 Packing extensions
 ---------------------
 
-```cmd
+```text
 Toolbox.exe pack <extensionfolder> <targetfolder>
 ```
 
@@ -79,7 +79,7 @@ Toolbox.exe pack <extensionfolder> <targetfolder>
 
 #### Example
 
-```cmd
+```text
 Toolbox.exe pack "C:\Playnite\Themes\Fullscreen\TestingFullscreen" "c:\somefolder"
 ```
 
@@ -88,7 +88,7 @@ Toolbox.exe pack "C:\Playnite\Themes\Fullscreen\TestingFullscreen" "c:\somefolde
 Verify manifests
 ---------------------
 
-```cmd
+```text
 Toolbox.exe verify <manifest_type> <manifest_path>
 ```
 
@@ -96,6 +96,6 @@ Toolbox.exe verify <manifest_type> <manifest_path>
 
 `<manifest_path>` - Path to manifest yaml file. Local full path or HTTP URLs are supported.
 
-```cmd
+```text
 Toolbox.exe verify <manifest_type> <manifest_path>
 ```
