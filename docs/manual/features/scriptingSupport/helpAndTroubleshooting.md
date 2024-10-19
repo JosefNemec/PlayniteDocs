@@ -26,3 +26,10 @@ Start-Process "game.exe"
 
 > [!NOTE]
 > This issue has been fixed in newer versions of PowerShell, but since Playnite has to use older version (5.1) until we switch to newer .NET runtime, you may encounter this issue.
+
+### Can't access files or processes in C:\WINDOWS\system32 or c:\Program Files\ folders
+
+Playnite is 32-bit process and therefore can't natively access 64-bit paths, you'll get redirected to 32-bit counterparts instead. You'll need to use different paths:
+
+- To access system32 folder, use `C:\windows\sysnative`
+- To access program files folder, use `$env:ProgramW6432`
