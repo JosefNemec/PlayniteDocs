@@ -89,7 +89,7 @@ If your system has both integrated and dedicated GPUs, ensure that Playnite is u
 This issue can be caused by:
   
   - Third-party apps that inject overlays to other processes, such as RivaTuner and derivatives like MSI Afterburner, EVGA Precision etc. If you use any software like this, add Playnite processes to exclusion lists if needed.
-  - `Nahimic Service`, generally causes issues to a lot of apps and games [including Playnite.](https://playnite.link/forum/thread-747.html)
+  - `Nahimic Service`, generally causes issues to a lot of [apps and games](https://www.google.com/search?q=nahimic+service+problems) including Playnite.
   - Outdated or problematic graphics drivers. Try to update or reinstall GPU drivers.
 
 **UI Stuttering and Mouse Lag:**
