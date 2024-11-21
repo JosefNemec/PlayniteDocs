@@ -94,13 +94,23 @@ This issue can be caused by:
 
 **UI Stuttering and Mouse Lag:**
 
-Users with G-Sync monitors or FreeSync-enabled AMD cards may experience UI stuttering. It can occur when using G-Sync monitor with "windowed mode" support enabled. To fix the issue create a profile for Playnite processes in 
-  Nvidia's control panel and set `Monitor Technology` to `Fixed Refresh`
-  
-  - Open the NVIDIA Control Panel and navigate to "Manage 3D Settings"
-  - Select the "Program Settings" tab
-  - Click "Add" to add a program, and select Playnite
-  - Change the "Monitor Technology" from "G-SYNC" to "Fixed Refresh"
+Users with variable refresh rate (VRR) displays (VESA Adaptive-Sync, G-Sync, FreeSync etc.) may experience stuttering and generally laggy feeling user interface. To fix the issue, create custom profile for Playnite processes (for both Playnite.DesktopApp.exe and Playnite.FullscreenApp.exe) in your graphics driver software that disables VRR specifically for Playnite.
+
+For Nvidia:  
+- Open the NVIDIA Control Panel and navigate to "Manage 3D Settings"
+- Select the "Program Settings" tab
+- Click "Add" to add a program
+- Select Playnite exe (you'll need to do this for both Fullscreen and Desktop exe separately)
+- Change the "Monitor Technology" from "G-SYNC" to "Fixed Refresh"
+
+For AMD:
+- Open AMD Adrenalin and go to "GAMES" tab
+- At the top right click on the 3 small dots then add a game
+- Select Playnite exe (you'll need to do this for both Fullscreen and Desktop exe separately)
+- Select imported Playnite process from the games list
+- Deactivate "Radeon FreeSync" option
+
+You will need to restart Playnite if you made these changes while Playnite is running.
 
 **Blur-Related Issue:**
 
