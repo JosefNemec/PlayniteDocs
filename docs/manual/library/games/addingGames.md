@@ -24,6 +24,9 @@ Use `Add Game` > `Manually` menu. Using this method requires manual configuratio
 > [!NOTE]
 > If play time tracking doesn't work after manually importing a game, try switching to a different tracking mode. You can do it on the Actions tab while editing a game. `Folder` tracking usually helps as an alternative tracking method with problematic games.
 
+> [!NOTE]
+> If a game or an app doesn't startup properly, make sure that `Working Directory` field is set correctly on game's play action. Some games/apps do not work properly unless their working directory is set to their install path (or to a folder where startup exe is located).
+
 ### Importing Windows Store or Xbox App games
 
 > [!NOTE]
