@@ -3,6 +3,8 @@
   items:
     - name: First start
       href: gettingStarted/firstStart.md
+    - name: Comparison with Other Software
+      href: gettingStarted/comparisonWithOtherSoftware.md
     - name: Playnite Desktop Mode
       href: gettingStarted/playniteDesktopMode.md
     - name: Playnite Fullscreen Mode
