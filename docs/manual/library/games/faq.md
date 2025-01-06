@@ -82,7 +82,7 @@ Yes, Playnite can launch Steam games, as well as any software that supports comm
 
 1. Create a desktop shortcut for the game in Steam by right-clicking it in the Steam Library UI and selecting **Manage** > **Add desktop shortcut**.
 2. Right-click the created shortcut on your desktop and copy the `URL` value (e.g., `steam://rungameid/11370944766805016576`). Alternatively, you can drag and drop the shortcut into Playnite's window to automatically create a game entry, skipping to Step 4.
-3. Create a new Play Action for the game in Playnite, set the `Type` to `URL`, and paste the value from Step 2.
+3. Create a new Play Action for the game in Playnite, set the `Type` to `Link`, and paste the value from Step 2.
 4. Set the `Tracking Mode` to **Folder** and configure the `Tracking Path` to the folder where the game executable is located. This allows Playnite to detect when the game is running.
 
 ![faq_steamPlayAction](images/faq_steamPlayAction.png)
