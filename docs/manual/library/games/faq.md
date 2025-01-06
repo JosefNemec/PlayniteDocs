@@ -95,7 +95,7 @@ Yes, Playnite can launch modded games, provided the mod manager supports externa
 
 **Notes:**
 - In most cases, you'll need to set the `Tracking Mode` to **Folder**, and for some mod managers, you may also need to configure the `Working Directory` for the game and mod launcher to work correctly. This will depend on how each mod launcher operates.
-- It is recommended to disable the **Include library play actions** box if you only intend to start the game with the mod manager. This option will disable showing the standard launch option provided by the game library plugin from showing.
+- It is recommended to disable the **Include library integration play actions** box if you only intend to start the game with the mod manager. This option will disable showing the standard launch option provided by the game library plugin from showing.
 
 **Examples:**
 
