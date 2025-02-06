@@ -120,6 +120,10 @@ Integrated GPUs may struggle with background blur. Adjust blur intensity and qua
 
 Slow hard drives or disabled GPU acceleration can cause this issue. Ensure that Hardware acceleration is enabled and try enabling `Asynchronous image loading` in `Settings` > `Advanced` > `Performance`.
 
+**Extra window borders or window content disappearing**
+
+Usually happens when software that affects window rendering/positioning is installed. For example tools like `Mica For Everyone` and similar.
+
 ### Can't install into specific folder
 
 This issue occurs when the installer lacks the necessary permissions to write to the selected destination folder. If you encounter this problem, try using a different location for the installation.
