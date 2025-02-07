@@ -11,6 +11,9 @@
 
 Playnite is a combination of `Play` and `Unite`.
 
+### Is Playnite the best game library manager for me, or should I use other software?
+It depends on your needs. Playnite is highly customizable, feature rich and supports many platforms, but it depends in your individual needs and priorities. See the [Comparison with Other Software](../comparisonWithOtherSoftware.md) section for more details.
+
 ### Is Playnite safe to use?
 
 Its safety largely depends on how the installed library and other types of plugins work and what they do, as they handle various aspects of game integration and other functionality.
