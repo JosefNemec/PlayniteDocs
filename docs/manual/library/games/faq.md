@@ -61,11 +61,64 @@ Playnite doesn't support icons/logos for [filter presets](../../features/filters
 
 Play time sync is supported by specific library integration plugins. Set `Import playtime of games in library` option to `Always`  in `Settings` > `General` to force sync from remote accounts. For more information see [here](../../gettingStarted/configuringPlaynite.md#importing-playtime-from-third-party-libraries-and-services).
 
+### Game tracking is not working correctly
+
+When game tracking issues occur, they can introduce several problems:
+- **Playtime tracking** may not work properly because Playnite cannot correctly detect when the game starts or stops.
+- Playnite may incorrectly restore its window, thinking the game has stopped running when it hasn't.
+- Features that depend on detecting game start/stop events, such as [Scripts](../../features/scriptingSupport/scriptingSupportOverview.md) or [extensions](../../features/extensionsSupport/extensionsSupportOverview.md) may not function correctly.
+
+This issue often happens when a game's [Play Action](gameActions.md) is misconfigured, although it can also happen rarely with games managed by library plugins.
+
+To fix this:
+
+1. **For games managed by a library plugin**, create a new Play Action and set the `Path` to the game executable. Some game launchers may offer alternative methods, such as using a `Link` type, for example, Steam by using `steam://launch/<appid>`. If it's a manually added game that already has a Play Action, skip to the next step.
+2. **Modify the Play Action** to ensure Playnite correctly detects when the game is running. Usually, this can be resolved by setting the Play Action `Tracking Mode` to **Folder** and configuring the `Tracking Path` to the folder where the game executable is located. Alternatively, use the `{InstallDir}` [game variable](../../advanced/gameVariables.md) if the path has been set as the `Installation Folder` under the `Installation` tab.
+
+**Example:**
+![faq_fixTrackingMode](images/faq_fixTrackingMode.png)
+
 ### Uninstalled games still show up as installed
 
 Playnite automatically changes install state to uninstalled only if:
 
-- you start uninstallation from Playnite
-- you have import of uninstalled games enabled in specific integration's settings and you update the library
+- You start uninstallation from Playnite
+- You have import of uninstalled games enabled in specific integration's settings and you update the library
 
 Installation state can be also manually change on installation tab while editing a game.
+
+### Can Playnite detect when games are started outside of it?
+
+No, Playnite cannot detect games started outside of it. For Playnite to track running games, they must be launched from within Playnite itself. For external game detection, Playnite and its library plugins would need to constantly monitor active processes and determine if they correspond to a game, which poses significant technical challenges. This would be complex, error-prone, and often impossible in practice.
+
+### Can Playnite start games manually added to Steam?
+
+Yes, Playnite can launch games that have been manually added to Steam, also commonly referred as "Non-Steam games", as well as any software that supports command line, URI, or other external launching methods through a [Play Action](gameActions.md). To launch Steam games:
+
+1. Create a desktop shortcut for the game in Steam by right-clicking it in the Steam Library UI and selecting **Manage** > **Add desktop shortcut**.
+2. Right-click the created shortcut on your desktop and copy the `URL` value (e.g., `steam://rungameid/11370944766805016576`). Alternatively, you can drag and drop the shortcut into Playnite's window to automatically create a game entry, skipping to Step 4.
+3. Create a new Play Action for the game in Playnite, set the `Type` to `Link`, and paste the value from Step 2.
+4. Set the `Tracking Mode` to **Folder** and configure the `Tracking Path` to the folder where the game executable is located. This allows Playnite to detect when the game is running.
+
+![faq_steamPlayAction](images/faq_steamPlayAction.png)
+
+### Can Playnite run games using my mod manager?
+
+Yes, Playnite can launch modded games, provided the mod manager supports external launching. You can configure the mod manager as a [Play Action](gameActions.md) in Playnite. For specific setup instructions, refer to the mod manager's documentation, guides, or community.
+
+**Notes:**
+- In most cases, you'll need to set the `Tracking Mode` to **Folder**, and for some mod managers, you may also need to configure the `Working Directory` for the game and mod launcher to work correctly. This will depend on how each mod launcher operates.
+- It is recommended to disable the **Include library integration play actions** box if you only intend to start the game with the mod manager. This option will disable showing the standard launch option provided by the game library plugin from showing.
+
+**Examples:**
+
+Below are examples of Play Action configurations for popular mod managers. Keep in mind that these configurations may change with updates, so treat them as informative examples only.
+
+- Mod Organizer  
+    ![faq_playActionModsModOrganizer2](images/faq_playActionModsModOrganizer2.png)
+- Reloaded II  
+    ![faq_playActionModsReloaded2](images/faq_playActionModsReloaded2.png)
+- SKSE64 (Skyrim Script Extender)  
+    ![faq_playActionModsSkse64](images/faq_playActionModsSkse64.png)
+- SMAPI (Stardew Valley Modding API)  
+    ![faq_playActionModsSmapi](images/faq_playActionModsSmapi.png)
