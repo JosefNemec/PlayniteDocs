@@ -91,6 +91,8 @@ Installation state can be also manually change on installation tab while editing
 
 No, Playnite cannot detect games started outside of it. For Playnite to track running games, they must be launched from within Playnite itself. For external game detection, Playnite and its library plugins would need to constantly monitor active processes and determine if they correspond to a game, which poses significant technical challenges. This would be complex, error-prone, and often impossible in practice.
 
+You can however create desktop shortcuts for games via the context menu in Playnite, that will then start the game through Playnite itself. That way you have the convenience of a shortcut, but still can track the time.
+
 ### Can Playnite start games manually added to Steam?
 
 Yes, Playnite can launch games that have been manually added to Steam, also commonly referred as "Non-Steam games", as well as any software that supports command line, URI, or other external launching methods through a [Play Action](gameActions.md). To launch Steam games:
