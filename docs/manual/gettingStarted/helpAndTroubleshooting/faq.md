@@ -159,3 +159,7 @@ Make sure to completely replace the folder on new drive/PC if it  already exists
 2. Copy content of `%appdata%\Playnite` into Playnite's application folder
 3. Delete `unins000.exe` and `unins000.dat` files in this directory.
 4. Edit `config.json` with a text editor and change `DatabasePath` property value to `"library"`
+
+### Can I change or hide startup splash screen?
+
+Splash screen image cannot be changed, it can only be hidden on startup using `--hidesplashscreen` [command line argument](../../advanced/cmdlineArguments.md). It currently also can't be hidden when switching application modes.
