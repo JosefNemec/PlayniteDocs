@@ -196,6 +196,8 @@ Go to `Settings` > `Advanced` and use the "Clear web cache" option to resolve th
 
 If the issue persists after clearing the cache, then your network was blocked by Google from image search website (usually by anti-bot measures) preventing Playnite from getting search results. There is no solution for this other than to wait for block to be lifted or use something like VPN to appear under different IP to Google.
 
+If you are getting actual search results and not seeing thumbnail images, install [WebP Image Extensions](https://www.microsoft.com/en-us/p/webp-image-extensions/9pg2dk419drg) from the Microsoft Store and restart Playnite.
+
 ### Can't drag and drop files to Playnite
 
 Running Playnite with elevated user rights (as Administrator) can prevent drag-and-drop functionality. Avoid running Playnite as an admin or run the source of the drag operation as an admin.
