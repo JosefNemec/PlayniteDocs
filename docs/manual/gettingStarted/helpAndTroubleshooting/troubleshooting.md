@@ -82,6 +82,10 @@ Certain antivirus applications, such as Malwarebytes and Avast, may produce fals
 
 If your system has both integrated and dedicated GPUs, ensure that Playnite is using the dedicated GPU and not the integrated one. Help is available [here](https://www.digitalcitizen.life/set-which-video-cards-are-used-apps-games-windows-10/).
 
+**Stuttering background when switching between games specifically**
+
+Happens usually on integrated or low end GPUs. Lower background blur quality and/or intensity in general appearance settings.
+
 ### Graphical and UI issues
 
 **Graphical Glitches with Hardware acceleration enabled:**
@@ -111,10 +115,6 @@ For AMD:
 - Deactivate "Radeon FreeSync" option
 
 You will need to restart Playnite if you made these changes while Playnite is running.
-
-**Blur-Related Issue:**
-
-Integrated GPUs may struggle with background blur. Adjust blur intensity and quality or disable it in settings.
 
 **UI Stuttering When Scrolling Large Lists:**
 
