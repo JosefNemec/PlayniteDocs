@@ -32,7 +32,7 @@ Startup crashes or freezes usually happen because of these reasons:
   - Malwarebytes
   - Nahimic service
 
-4) Broken .NET Framework installation. Can be repaired by downloading the latest runtime installer from [this website](https://dotnet.microsoft.com/en-us/download/dotnet-framework).
+4) Broken .NET Framework installation. Can be repaired by running .NET Framework repair tool from [this website](https://www.microsoft.com/en-us/download/details.aspx?id=30135).
 5) Broken Windows installation. Can be checked and fixed by running [System File Checker tool](https://support.microsoft.com/en-us/windows/using-system-file-checker-in-windows-365e0031-36b1-6031-f804-8fd86e0ef4ca).
 6) Broken Windows installation #2. There've been reports of customized/debloated Windows editions having issues running Playnite, for example Tiny or Atlas versions. Solution is to not use these homebrew editions and using only official Windows installations.
 
