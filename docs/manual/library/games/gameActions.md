@@ -24,7 +24,7 @@ Action properties
 | Tracking mode     | Only available for Play actions (`File` and `URL` types) since it affects how [play time detection](#tracking-mode) works.                                                                         |
 | Path              | File path (or URL) to start.                                                                                                                                                                       |
 | Arguments         | Startup arguments passed to an executable during startup.                                                                                                                                          |
-| Working directory | Working directory set to an executable during startup.                                                                                                                                             |
+| Working directory | Working directory set to an executable during startup. Some games may not launch properly unless this is set to the same folder where launched exe is located.                                     |
 
 ### Action types
 

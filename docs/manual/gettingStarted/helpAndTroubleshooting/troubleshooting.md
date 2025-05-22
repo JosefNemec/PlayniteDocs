@@ -236,3 +236,9 @@ If you've noticed that Playnite takes longer to start after a Windows update, yo
     c:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe update
     c:\Windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe update
     ```
+
+### Manually added games doesn't run properly
+
+This usually happens with games that do not work properly if they don't have working directory set explicitly to where launched exe is located. To fix this, make sure you have working directory assigned on game's [play action](../games/gameActions.md).
+
+You can also drag and drop game exe or desktop shortcut into Playnite's main window for Playnite to configure this for you. See [page about adding games](../games/addingGames.md) for more details.
